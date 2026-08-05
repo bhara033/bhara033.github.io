@@ -116,7 +116,7 @@ README.md
 
 # Step 3 — Add Hugo Profile Theme
 
-Download the Hugo Profile theme:
+Download the Hugo Profile theme (Creator: Gurusabarish).
 
 https://github.com/gurusabarish/hugo-profile
 
@@ -588,6 +588,6 @@ The most important technical lesson:
 Created using:
 
 * Hugo
-* Hugo Profile Theme
+* Hugo Profile Theme (Creator: Gurusabarish)
 * GitHub Actions
 * GitHub Pages
