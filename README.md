@@ -116,7 +116,7 @@ README.md
 
 # Step 3 — Add Hugo Profile Theme
 
-Download the Hugo Profile theme:
+Download the Hugo Profile theme (Creator: Gurusabarish).
 
 https://github.com/gurusabarish/hugo-profile
 
