@@ -588,6 +588,6 @@ The most important technical lesson:
 Created using:
 
 * Hugo
-* Hugo Profile Theme
+* Hugo Profile Theme (Creator: Gurusabarish)
 * GitHub Actions
 * GitHub Pages
