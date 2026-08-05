@@ -153,7 +153,7 @@ params:
     title: "Suhas."
     subtitle: "I make organizations safer and strengthen the health of communities."
     content: "I'm an expert in Occupational Health and Public Health, bringing invaluable skills to support the success of the organization and its team, including proficiency in statistical programming such as Python, R, SAS and SQL, expertise in federal and state occupational safety (OSHA), mining safety (MSHA), energy (DOE) and environmental regulatory (EPA) compliance, as well as strong stakeholder communication, and presentation skills. Through harnessing big‑data, statistical modeling, and advanced analytics, I turn complex evidence into actionable insights that improve workplace safety, environmental stewardship, and community well‑being."
-    image: "https://drive.google.com/file/d/1p2Z9mNk3HxMrjhlUUTuedu0ntd9DMkuX/view?usp=drive_link"
+    image: "/0141.jpg"
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -179,7 +179,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/0140.jpg"
     content: |-
       I have EHS experience at J. M. Huber Corporation, Oak Ridge National Laboratory, and National Center for Asphalt Testing. Previously, I completed my Doctorate in Industrial Engineering at Auburn University under the advisement of Dr. Haneen Ali. My research focused on evaluating the effectiveness of quality measures used in American nursing homes and translating those insights into stronger public health preparedness and forecasting. The unique aspects of the project included working with big-data containing 2.5 million records, 15K entities and geographical clustering, synthesizing information from multiple publicly available data sources to construct a longitudinal panel data set, examining the associations of quality measures with COVID-19 health outcomes using mixed-effects modeling, applying parallel computing in High-Performance Computing (HPC) environment to scale complex analyses and speed discovery (Auburn University Easley Supercomputer, Alabama Supercomputing Authority). During the summer of 2024, I completed a course at Oak Ridge Leadership Computing Facility to learn advance HPC skills including Machine Learning, Message Passing Interface, Open Multi-Processing and Graphical Processing Unit Programming. I'm deeply committed to community engagement and non-profit fundraising through completing ten Polar Plunges for Special Olympics and nine Bike Multiple Sclerosis (MS) events for National MS Society.
     skills:
