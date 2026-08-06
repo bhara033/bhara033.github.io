@@ -6,6 +6,7 @@ This approach uses GitHub's cloud-based CI/CD environment to build and deploy th
 
 ---
 
+# Phase 1 – Portfolio Initialization & Hugo Profile Customization
 # Overview
 
 This project creates a static portfolio website using:
