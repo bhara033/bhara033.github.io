@@ -1,0 +1,151 @@
+{{ if .Site.Params.accomplishments.enable | default false }}
+{{- $accomplishments := .Site.Language.Params.accomplishments | default .Site.Params.accomplishments -}}
+
+<section id="education" class="py-5">  <!-- changed id="accomplishments" to id="education" to match section styling-->
+    <div class="container">
+
+        <h3 class="text-center">
+            {{ $accomplishments.title | default .Site.Params.accomplishments.title | default "Accomplishments" }}
+        </h3>
+
+        <div class="row justify-content-center py-5">
+
+            {{ $indexMenu := .Site.Params.accomplishments.index }}
+
+            {{ range $index, $element := $accomplishments.items | default .Site.Params.accomplishments.items }}
+
+            <div class="col-12 p-0">
+
+                <div class="row align-items-center justify-content-center m-1 mb-4">
+
+                    {{ if $indexMenu }}
+                    <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
+                        <div class="py-2">
+                            <span class="index shadow-lg">
+                                {{ add $index 1 }}
+                            </span>
+                        </div>
+                    </div>
+                    {{ end }}
+
+
+                    <div class="col-md-9">
+
+                          <div class="card shadow-sm h-100 bg-white">
+                            <div class="card-body">
+
+                                <div class="float-end">
+                                    <small>{{ .date }}</small>
+                                </div>
+
+
+                                <!-- Accomplishment Title -->
+                                <h5 class="card-title">
+                                    {{ .title }}
+                                </h5>
+
+                                <!-- Organization -->
+                                {{ range .organizations }}
+                                
+                                <div class="d-flex justify-content-between align-items-center">
+                                
+                                    {{ if .url }}
+                                    <a href="{{ .url }}" target="_blank">
+                                        {{ .name }}
+                                    </a>
+                                    {{ else }}
+                                        {{ .name }}
+                                    {{ end }}
+                                
+                                    {{ if .date }}
+                                    <small>{{ .date }}</small>
+                                    {{ end }}
+                                
+                                </div>
+                                
+                                
+                                <div class="py-1">
+                                    {{ .content | markdownify }}
+                                </div>
+                                
+                                {{ end }}
+
+
+                                <!-- Type -->
+                                {{ if .type }}
+                                <div class="py-1">
+                                    <strong>Type:</strong>
+                                    <i>
+                                        <small>{{ .type }}</small>
+                                    </i>
+                                </div>
+                                {{ end }}
+
+
+                                <!-- Description -->
+                                <div class="py-1 education-content">
+                                    {{ .content | markdownify }} <!-- can use either markdownify or plainify -->
+                                </div>
+
+
+                                <!-- Featured Link -->
+                                <!-- Resources -->
+                                {{ if .resources }}
+                                
+                                <div class="py-2">
+                                
+                                    <button class="btn btn-outline-secondary btn-sm"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#resources{{ $index }}">
+                                
+                                        Resources ({{ len .resources }})
+                                
+                                    </button>
+                                
+                                
+                                    <div class="collapse mt-2" id="resources{{ $index }}">
+                                
+                                        {{ range .resources }}
+                                
+                                        <div class="mb-1">
+                                
+                                            <a href="{{ .url }}"
+                                               target="_blank">
+                                
+                                                {{ if .icon }}
+                                                <i class="fas {{ .icon }}"></i>
+                                                {{ end }}
+                                
+                                                {{ .name }}
+                                
+                                            </a>
+                                
+                                        </div>
+                                
+                                        {{ end }}
+                                
+                                    </div>
+                                
+                                </div>
+                                
+                                {{ end }}
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            {{ end }}
+
+        </div>
+
+    </div>
+</section>
+
+{{ end }}

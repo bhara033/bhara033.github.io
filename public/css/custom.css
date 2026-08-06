@@ -1,0 +1,7 @@
+.experience-card {
+    background-color: #ffffff !important;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}

@@ -1,0 +1,127 @@
+{{ if .Site.Params.accomplishments.enable | default false }}
+{{- $accomplishments := .Site.Language.Params.accomplishments | default .Site.Params.accomplishments -}}
+
+<section id="accomplishments" class="py-5">
+    <div class="container">
+
+        <h3 class="text-center">
+            {{ $accomplishments.title | default .Site.Params.accomplishments.title | default "Accomplishments" }}
+        </h3>
+
+        <div class="row justify-content-center py-5">
+
+            {{ $indexMenu := .Site.Params.accomplishments.index }}
+
+            {{ range $index, $element := $accomplishments.items | default .Site.Params.accomplishments.items }}
+
+            <div class="col-12 p-0">
+
+                <div class="row align-items-center justify-content-center m-1 mb-4">
+
+                    {{ if $indexMenu }}
+                    <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
+                        <div class="py-2">
+                            <span class="index shadow-lg">
+                                {{ add $index 1 }}
+                            </span>
+                        </div>
+                    </div>
+                    {{ end }}
+
+
+                    <div class="col-md-9">
+
+                        <div class="card">
+                            <div class="card-body">
+
+                                <div class="float-end">
+                                    <small>{{ .date }}</small>
+                                </div>
+
+
+                                <!-- Accomplishment Title -->
+                                <h5 class="card-title">
+                                    {{ .title }}
+                                </h5>
+
+
+                                <!-- Organization -->
+                                {{ range .organizations }}
+                                
+                                    {{ if .url }}
+                                    <a href="{{ .url }}" target="_blank">
+                                        <h6>{{ .name }}</h6>
+                                    </a>
+                                    {{ else }}
+                                    <h6>{{ .name }}</h6>
+                                    {{ end }}
+                                
+                                {{ end }}
+
+
+                                <!-- Type -->
+                                {{ if .type }}
+                                <div class="py-1">
+                                    <strong>Type:</strong>
+                                    <i>
+                                        <small>{{ .type }}</small>
+                                    </i>
+                                </div>
+                                {{ end }}
+
+
+                                <!-- Description -->
+                                <div class="py-1 education-content">
+                                    {{ .content | markdownify }}
+                                </div>
+
+
+                                <!-- Featured Link -->
+                                {{ if .featuredLink.enable }}
+
+                                <div class="py-1">
+                                    <a href="{{ .featuredLink.url }}" class="btn">
+                                        {{ .featuredLink.name | default "Featured" }}
+                                    </a>
+                                </div>
+
+                                {{ end }}
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            {{ end }}
+
+        </div>
+
+    </div>
+</section>
+
+{{ end }}
+
+<!--
+{{ if .organization.url }}
+                                
+                                <a href="{{ .organization.url }}" target="_blank">
+                                    <h6>
+                                        {{ .organization.name }}
+                                    </h6>
+                                </a>
+                                
+                                {{ else }}
+                                
+                                {{ if .organization.name }}
+                                <h6>
+                                    {{ .organization.name }}
+                                </h6>
+                                {{ end }}
+                                
+                                {{ end }}
+-->

@@ -75,8 +75,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Suhas"
+  description: Suhas
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -131,7 +131,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Suhas" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -142,6 +142,7 @@ params:
       disableAbout: false
       disableExperience: false
       disableEducation: false
+      disableAccomplishments: false
       disableProjects: false
       disableAchievements: false
       disableContact: false
@@ -152,7 +153,7 @@ params:
     intro: "Hi, my name is"
     title: "Suhas."
     subtitle: "I make organizations safer and strengthen the health of communities."
-    content: "I'm an expert in Occupational Health and Public Health, bringing invaluable skills to support the success of the organization and its team, including proficiency in statistical programming such as Python, R, SAS and SQL, expertise in federal and state occupational safety (OSHA), mining safety (MSHA), energy (DOE) and environmental regulatory (EPA) compliance, as well as strong stakeholder communication, and presentation skills. Through harnessing big‑data, statistical modeling, and advanced analytics, I turn complex evidence into actionable insights that improve workplace safety, environmental stewardship, and community well‑being."
+    content: "I'm an expert in Occupational Health and Public Health, bringing invaluable skills to support the success of the organization and its team, including proficiency in statistical programming such as Python, R, SAS and SQL, expertise in federal and state occupational safety (OSHA), mining safety (MSHA), energy (DOE) and environmental regulatory (EPA) compliance, as well as strong stakeholder communication, and presentation skills. Through harnessing big‐data, statistical modeling, and advanced analytics, I turn complex evidence into actionable insights that improve workplace safety, environmental stewardship, and community well‐being."
     image: "/0141.jpg"
     bottomImage:
       enable: true
@@ -206,14 +207,14 @@ params:
           - name: "Resourcefulness and Leadership in OSH"
             date: "Mar 2025 - Jul 2026"
             content: |-
-              ●	Launched HSMS’ LSR initiative, closing all identified compliance gaps for significantly improving safety culture while reducing incident risk as well as site-level plans to achieve 2026 HESS objectives through engaging employees at all levels, building cross-functional teams, and structured action tracking at 2 sites.
-              ●	Implemented silica sampling programs across 2 sites, collecting 24 samples according to modified NIOSH 0600/7500 methods and analysing according to modified OSHA ID-142 Gravimetry/X-ray diffraction, resulting in sustained regulatory compliance through silica exposure below 25 μg/m3 (8-hr TWA), improving indoor air quality for 43 employees.
-              ●	Conducted monthly safety meetings at 2 sites, delivering 26 engaging safety presentations to 43 employees and achieving 100% participation from all departments.
-              ●	Established Safety Committees at 2 sites with 20 engaged employees, conducting 20 meetings that generated 10 actionable ideas for health and safety improvements planned for 2026.
-              ●	Developed and formalized Emergency Action and Business Contingency Plans for 2 sites, covering 20 emergency scenarios, strengthened crisis response readiness, and improved emergency activation speed by approx 30% through streamlined communication workflows and trained response teams.
-              ●	Organized and led the inaugural 2 Safety Day event, engaging 45 employees across 4 sessions and 8 interactive activities, strengthening safety culture and employee engagement, while achieving a 95% positive feedback rate.
-              ●	Strengthened MSHA compliance by conducting a Task Training Audit for 2 sites and 43 employees, identifying 16 employees with missing Task Training certificates and saving $2,500, on avg, per violation in avoided fines.
-              ●	Executed EPA air and water permit requirements by conducting quarterly stormwater sampling, monthly wastewater sampling, and periodic effluent discharge and air quality monitoring for 8 outfalls and 40 emission points, maintaining compliance across two sites for 15 months.
+              - Launched HSMS’ LSR initiative, closing all identified compliance gaps for significantly improving safety culture while reducing incident risk as well as site-level plans to achieve 2026 HESS objectives through engaging employees at all levels, building cross-functional teams, and structured action tracking at 2 sites.
+              - Implemented silica sampling programs across 2 sites, collecting 24 samples according to modified NIOSH 0600/7500 methods and analysing according to modified OSHA ID-142 Gravimetry/X-ray diffraction, resulting in sustained regulatory compliance through silica exposure below 25 μg/m3 (8-hr TWA), improving indoor air quality for 43 employees.
+              - Conducted monthly safety meetings at 2 sites, delivering 26 engaging safety presentations to 43 employees and achieving 100% participation from all departments.
+              - Established Safety Committees at 2 sites with 20 engaged employees, conducting 20 meetings that generated 10 actionable ideas for health and safety improvements planned for 2026.
+              - Developed and formalized Emergency Action and Business Contingency Plans for 2 sites, covering 20 emergency scenarios, strengthened crisis response readiness, and improved emergency activation speed by approx 30% through streamlined communication workflows and trained response teams.
+              - Organized and led the inaugural 2 Safety Day event, engaging 45 employees across 4 sessions and 8 interactive activities, strengthening safety culture and employee engagement, while achieving a 95% positive feedback rate.
+              - Strengthened MSHA compliance by conducting a Task Training Audit for 2 sites and 43 employees, identifying 16 employees with missing Task Training certificates and saving $2,500, on avg, per violation in avoided fines.
+              - Executed EPA air and water permit requirements by conducting quarterly stormwater sampling, monthly wastewater sampling, and periodic effluent discharge and air quality monitoring for 8 outfalls and 40 emission points, maintaining compliance across two sites for 15 months.
 
       - company: "QSHP Intern at Oak Ridge National Laboratory, Oak Ridge, TN"
         companyUrl: "https://www.ornl.gov/"
@@ -221,14 +222,14 @@ params:
           - name: "Hazard Evaluation and Risk Communication in OSH"
             date: "May 2024 - Aug 2024"
             content: |-
-              ●	Streamlined hazard evaluations and work controls through implementation of Activity-Based Work Controls in Material Science and Technology Division, transforming 53 Research Safety Summaries into 266 Activity-Based Hazard Analyses.
-              ●	Assisted Industrial Hygiene technicians in conducting 6 equipment characterization and 2 facility characterization involving metal and radiation sampling in accordance with DOE regulations such as 10 CFR 850 (Chronic Beryllium Disease Prevention Program) and 10 CFR 851 (Worker Safety and Health Program).
-              ●	Quantified parameters of safe laser operation such as Ocular Maximum Permissible Exposure, Eyewear Optical Density, Intrabeam Nominal Ocular Hazard Distance, Diffuse Nominal Hazard Zone for 5 high-power lasers and implemented them into Standard Operating Procedures for compliance with ANSI Z136.1 (Safe Use of Lasers).
-              ●	Collaborated with researchers and safety professionals to evaluate research scope during annual RSS reviews and conduct 4 laboratory walkthroughs annually, identifying and resolving 12 potential hazards, achieving 100% review completion, and strengthening laboratory safety culture.
-              ●	Cultivated insight into health and safety considerations for the diverse research activities carried out at 4 user facilities (SNS, OLCF, HFIR, MDF) during facility tours.
-              ●	Enhanced workplace ergonomics by assessing 2 researchers' workstations, recommending 12 evidence-based modifications, and conducting follow-up evaluations to verify implementation and sustained improvements.
-              ●	Participated in the Roane State Community College (RSCC) Fundamentals of IH course (4-days), American IH Association (AIHA) Exposure Decision Analysis course (1-day), and weekly IH equipment training (Four-Gas Meter).
-              ●	Acquired a comprehensive understanding of work controls for safe handling of FLiBe salts at the FLiBe Beryllium worker protection model workshop and cryogens at the Cryogenics and O2 deficiency regulation update meeting.
+              - Streamlined hazard evaluations and work controls through implementation of Activity-Based Work Controls in Material Science and Technology Division, transforming 53 Research Safety Summaries into 266 Activity-Based Hazard Analyses.
+              - Assisted Industrial Hygiene technicians in conducting 6 equipment characterization and 2 facility characterization involving metal and radiation sampling in accordance with DOE regulations such as 10 CFR 850 (Chronic Beryllium Disease Prevention Program) and 10 CFR 851 (Worker Safety and Health Program).
+              - Quantified parameters of safe laser operation such as Ocular Maximum Permissible Exposure, Eyewear Optical Density, Intrabeam Nominal Ocular Hazard Distance, Diffuse Nominal Hazard Zone for 5 high-power lasers and implemented them into Standard Operating Procedures for compliance with ANSI Z136.1 (Safe Use of Lasers).
+              - Collaborated with researchers and safety professionals to evaluate research scope during annual RSS reviews and conduct 4 laboratory walkthroughs annually, identifying and resolving 12 potential hazards, achieving 100% review completion, and strengthening laboratory safety culture.
+              - Cultivated insight into health and safety considerations for the diverse research activities carried out at 4 user facilities (SNS, OLCF, HFIR, MDF) during facility tours.
+              - Enhanced workplace ergonomics by assessing 2 researchers' workstations, recommending 12 evidence-based modifications, and conducting follow-up evaluations to verify implementation and sustained improvements.
+              - Participated in the Roane State Community College (RSCC) Fundamentals of IH course (4-days), American IH Association (AIHA) Exposure Decision Analysis course (1-day), and weekly IH equipment training (Four-Gas Meter).
+              - Acquired a comprehensive understanding of work controls for safe handling of FLiBe salts at the FLiBe Beryllium worker protection model workshop and cryogens at the Cryogenics and O2 deficiency regulation update meeting.
 
       - company: "Validation Specialist at Radio Frequency Identification (RFID) Laboratory, Auburn, AL"
         companyUrl: "https://rfid.auburn.edu/"
@@ -236,9 +237,9 @@ params:
         - name: "Technology Evaluation and System Testing Practitioner"
           date: "May 2022 - Aug 2022"
           content: |-
-            ●	Advanced analytical research capabilities and RFID deployment by analyzing tag performance across varied retail categories and executing 8 standardized lab tests to optimize large-scale implementations
-            ●	Strengthened problem-solving skills in RFID system operations and maintenance by leveraging hardware and software expertise to troubleshoot complex technical issues and ensure reliable performance of mission-critical technology applications.
-            ●	Partnered with cross-functional teams to apply RFID technology insights across enterprise-level retail operations, strengthening product tracking and inventory management strategies through performance-driven process improvements.
+            - Advanced analytical research capabilities and RFID deployment by analyzing tag performance across varied retail categories and executing 8 standardized lab tests to optimize large-scale implementations
+            - Strengthened problem-solving skills in RFID system operations and maintenance by leveraging hardware and software expertise to troubleshoot complex technical issues and ensure reliable performance of mission-critical technology applications.
+            - Partnered with cross-functional teams to apply RFID technology insights across enterprise-level retail operations, strengthening product tracking and inventory management strategies through performance-driven process improvements.
 
       - company: "EHS Intern at National Center for Asphalt Technology, Opelika, AL"
         companyUrl: "https://eng.auburn.edu/research/centers/ncat/testtrack/index.html"
@@ -246,105 +247,105 @@ params:
         - name: "Problem Solving and Record Keeping in OSH"
           date: "Aug 2021 - Oct 2021"
           content: |-
-            ●	Adept in managing large projects, as demonstrated by coordinating regulatory compliance and ensuring on-site safety of ~25 workers, visitors, scholars during the 8th NCAT Test-Track Build Cycle while adhering to State and National Departments of Transportation (DoT) requirements.
-            ●	Effectively led problem-solving initiatives through presenting complex technical information to an audience of varied expertise level for quick decision-making related to on-site safety of work crew, research scholars, and representatives of State and Federal Departments of Transportation (DoT).
-          
+            - Adept in managing large projects, as demonstrated by coordinating regulatory compliance and ensuring on-site safety of ~25 workers, visitors, scholars during the 8th NCAT Test-Track Build Cycle while adhering to State and National Departments of Transportation (DoT) requirements.
+            - Effectively led problem-solving initiatives through presenting complex technical information to an audience of varied expertise level for quick decision-making related to on-site safety of work crew, research scholars, and representatives of State and Federal Departments of Transportation (DoT).
+
       - company: "Graduate Research and Teaching Assistant at Auburn University, Auburn, AL"
         companyUrl: "https://eng.auburn.edu/insy/"
         jobs:
         - name: "Public Health Data Scientist and Mentor"
           date: "Jan 2020 - Dec 2024"
           content: |-
-            ●	Analyzed longitudinal healthcare datasets using mixed-effects models to evaluate nursing home quality measures and COVID-19 outcomes, translating statistical findings into evidence supporting healthcare quality improvement.
-            ●	Performed large-scale analysis of public health datasets using SAS and R in a high-performance computing (HPC) environment to identify health trends and support occupational health and injury prevention research.
-            ●	Conducted longitudinal and compositional data analyses using parametric and non-parametric statistical methods across 135 datasets, 32 participants, and 50+ variables, applying analytical reasoning to support data-driven research findings.
-            ●	Demonstrated strong interpersonal and mentoring skills in engineering education and technical instruction, mentoring 500+ students over 13 semesters, translating complex engineering, programming, statistical, and analytical concepts into accessible instruction and supporting data-driven problem solving.
-            ●	Exhibited teaching and communication skills supported by hands-on engineering laboratory instruction, conducting 50+ lab sessions and 2 course lectures to improve student engagement and practical application of course material.
-            ●	Optimized student learning and course delivery for 40+ students each semester by streamlining Canvas LMS content management, conducting office hours, providing individualized feedback, and analyzing assignment performance, ensuring 100% on-time access to instructional materials and supporting improved learning outcomes.
-            ●	Showcased collaborative planning and research logistics skills by coordinating approximately 60 field data collection visits, collecting data from 32 manufacturing workers, and facilitating execution by a 5-member team on an NIH-funded research initiative, ensuring efficient and high-quality data collection for downstream analysis.
-          
+            - Analyzed longitudinal healthcare datasets using mixed-effects models to evaluate nursing home quality measures and COVID-19 outcomes, translating statistical findings into evidence supporting healthcare quality improvement.
+            - Performed large-scale analysis of public health datasets using SAS and R in a high-performance computing (HPC) environment to identify health trends and support occupational health and injury prevention research.
+            - Conducted longitudinal and compositional data analyses using parametric and non-parametric statistical methods across 135 datasets, 32 participants, and 50+ variables, applying analytical reasoning to support data-driven research findings.
+            - Demonstrated strong interpersonal and mentoring skills in engineering education and technical instruction, mentoring 500+ students over 13 semesters, translating complex engineering, programming, statistical, and analytical concepts into accessible instruction and supporting data-driven problem solving.
+            - Exhibited teaching and communication skills supported by hands-on engineering laboratory instruction, conducting 50+ lab sessions and 2 course lectures to improve student engagement and practical application of course material.
+            - Optimized student learning and course delivery for 40+ students each semester by streamlining Canvas LMS content management, conducting office hours, providing individualized feedback, and analyzing assignment performance, ensuring 100% on-time access to instructional materials and supporting improved learning outcomes.
+            - Showcased collaborative planning and research logistics skills by coordinating approximately 60 field data collection visits, collecting data from 32 manufacturing workers, and facilitating execution by a 5-member team on an NIH-funded research initiative, ensuring efficient and high-quality data collection for downstream analysis.
+
       - company: "Production Associate at International Packaging, Inc., Brooklyn Park, MN"
         companyUrl: "https://www.internationalpackaging.com/"
         jobs:
         - name: "Process Reliability and Improvement Strategist"
           date: "Jan 2019 - Dec 2019"
           content: |-
-            ●	Enhanced process monitoring and operational problem-solving skills by tracking daily safety, quality, delivery, and cost performance metrics, consistently achieving 90 - 95% of production targets while maintaining compliance with manufacturing standards.
-            ●	Leveraged technical troubleshooting and root cause analysis (RCA) skills to investigate product non-conformities and equipment issues, reducing defects and rework by 10 - 15% while improving production continuity and product quality.
-            ●	Promoted continuous improvement and quality assurance practices by identifying safety risks and equipment-related issues, supporting 95 - 100% compliance during safety audits and improving workplace reliability.
-          
+            - Enhanced process monitoring and operational problem-solving skills by tracking daily safety, quality, delivery, and cost performance metrics, consistently achieving 90 - 95% of production targets while maintaining compliance with manufacturing standards.
+            - Leveraged technical troubleshooting and root cause analysis (RCA) skills to investigate product non-conformities and equipment issues, reducing defects and rework by 10 - 15% while improving production continuity and product quality.
+            - Promoted continuous improvement and quality assurance practices by identifying safety risks and equipment-related issues, supporting 95 - 100% compliance during safety audits and improving workplace reliability.
+
       - company: "Data Science Trainee (Remote) at Global IT Experts, Inc., Minneapolis, MN"
         companyUrl: "https://www.globalitexperts.com/"
         jobs:
         - name: "Data Scientist and Statistical Modeler"
           date: "Aug 2018 - Jan 2019"
           content: |-
-            ●	Assimilated analytical problem-solving skills through R-based statistical analysis, data cleaning, and visualization techniques to process 500+ data records across 5 datasets/projects, generating insights through weekly data analyses to support business decision-making.
-            ●	Standardized data engineering solutions by building efficient data pipelines and retrieval workflows, improving data accessibility and processing reliability across 5 analytical projects while independently resolving complex data challenges.
-            ●	Exemplified cross-functional collaboration and analytical expertise to translate exploratory data analysis and predictive modeling findings into actionable recommendations, delivering weekly insights that supported operational improvements across stakeholder teams.
-          
+            - Assimilated analytical problem-solving skills through R-based statistical analysis, data cleaning, and visualization techniques to process 500+ data records across 5 datasets/projects, generating insights through weekly data analyses to support business decision-making.
+            - Standardized data engineering solutions by building efficient data pipelines and retrieval workflows, improving data accessibility and processing reliability across 5 analytical projects while independently resolving complex data challenges.
+            - Exemplified cross-functional collaboration and analytical expertise to translate exploratory data analysis and predictive modeling findings into actionable recommendations, delivering weekly insights that supported operational improvements across stakeholder teams.
+
       - company: "Quality Audit Specialist at Prime Therapeutics, Eagan, MN"
         companyUrl: "https://www.primetherapeutics.com/"
         jobs:
         - name: "Benefits Management and Claim Adjudication Champion"
           date: "Jul 2018 - Aug 2018"
           content: |-
-            ●	Independently coded 2 benefit plans in RxClaim and built six specialty programs in Benefit Plan Wizard (BPW), demonstrating strong analytical and technical skills to enhance healthcare benefits management.
-            ●	Validated 2 new and 5 revised benefit plans through rigorous quality testing, ensuring accurate claims adjudication while applying attention to detail and problem-solving skills to identify and resolve discrepancies.
-            ●	Managed updates on claim changes and submitted Quality Audit Analyst (QAA) requests through Service Now, achieving a 98% quality guarantee and a 5-day turnaround time (TAT).
-          
+            - Independently coded 2 benefit plans in RxClaim and built six specialty programs in Benefit Plan Wizard (BPW), demonstrating strong analytical and technical skills to enhance healthcare benefits management.
+            - Validated 2 new and 5 revised benefit plans through rigorous quality testing, ensuring accurate claims adjudication while applying attention to detail and problem-solving skills to identify and resolve discrepancies.
+            - Managed updates on claim changes and submitted Quality Audit Analyst (QAA) requests through Service Now, achieving a 98% quality guarantee and a 5-day turnaround time (TAT).
+
       - company: "Graduate Research and Teaching Assistant at University of Minnesota - Twin Cities, Minneapolis, MN"
         companyUrl: "https://cse.umn.edu/isye"
         jobs:
         - name: "Research Investigator and Project Leader"
           date: "Sep 2015 - Jul 2018"
           content: |-
-            ●	Compiled, managed, and analyzed behavioral and observational data to evaluate injury prevention interventions and generate evidence supporting transportation safety initiatives.
-            ●	Designed and conducted human-subject research, coordinating laboratory and field data collection to generate high-quality physiological and kinematic datasets for statistical analysis, interpretation, and dissemination of research findings.
-            ●	Practiced adaptability and field research skills to conduct biomechanics-based gait studies aboard the R/V Atlantis, successfully collecting research data during a 17-day ocean expedition in a challenging at-sea environment.
-            ●	Provided personalized academic support through one-on-one and group office hours for course-specific guidance, supporting a class of ~90 students by clarifying course concepts and fostering a collaborative learning environment that promoted academic success.
-            ●	Prioritized analytical and evaluation skills through grading and assessing student work, evaluating 15 weekly lab assignments and 3 exams while delivering timely feedback and reporting performance insights to the course instructor.
-            ●	Modernized digital learning management through Moodle LMS administration and course content organization, maintaining structured learning resources and interactive activities to support effective course delivery and student engagement.
-          
+            - Compiled, managed, and analyzed behavioral and observational data to evaluate injury prevention interventions and generate evidence supporting transportation safety initiatives.
+            - Designed and conducted human-subject research, coordinating laboratory and field data collection to generate high-quality physiological and kinematic datasets for statistical analysis, interpretation, and dissemination of research findings.
+            - Practiced adaptability and field research skills to conduct biomechanics-based gait studies aboard the R/V Atlantis, successfully collecting research data during a 17-day ocean expedition in a challenging at-sea environment.
+            - Provided personalized academic support through one-on-one and group office hours for course-specific guidance, supporting a class of ~90 students by clarifying course concepts and fostering a collaborative learning environment that promoted academic success.
+            - Prioritized analytical and evaluation skills through grading and assessing student work, evaluating 15 weekly lab assignments and 3 exams while delivering timely feedback and reporting performance insights to the course instructor.
+            - Modernized digital learning management through Moodle LMS administration and course content organization, maintaining structured learning resources and interactive activities to support effective course delivery and student engagement.
+
       - company: "Manufacturing Intern at Surgical Technologies, Saint Paul, MN"
         companyUrl: "https://protechdesign.com/"
         jobs:
         - name: "Operational Excellence and Continuous Improvement Specialist"
           date: "Jul 2016 - Sep 2016"
           content: |-
-            ●	Improved material flow and floor space utilization in a class 5 cleanroom, effectively enhancing operational efficiency and freeing up space for additional workstations, demonstrating strong organizational skills and expertise in cleanroom management.
-            ●	Augmented production rates by 2X through comprehensive time studies and data analysis, using analytical skills and the ability to implement data-driven strategies that optimize manufacturing processes.
-            ●	Executed Installation Qualification (IQ) protocols on 3 UV lamps and installed 10 work fixtures in the catheter assembly line, highlighting technical proficiency in equipment installation and compliance with industry standards to ensure operational readiness.
-          
+            - Improved material flow and floor space utilization in a class 5 cleanroom, effectively enhancing operational efficiency and freeing up space for additional workstations, demonstrating strong organizational skills and expertise in cleanroom management.
+            - Augmented production rates by 2X through comprehensive time studies and data analysis, using analytical skills and the ability to implement data-driven strategies that optimize manufacturing processes.
+            - Executed Installation Qualification (IQ) protocols on 3 UV lamps and installed 10 work fixtures in the catheter assembly line, highlighting technical proficiency in equipment installation and compliance with industry standards to ensure operational readiness.
+
       - company: "Student Support Administrator University Bookstores, Minneapolis, MN"
         companyUrl: "https://bookstores.umn.edu/"
         jobs:
         - name: "Warehouse Inventory and Order Fulfillment Coordinator"
           date: "Oct 2015 – Dec 2017"
           content: |-
-            ●	Maximized organizational efficiency through RATEX inventory system management and item categorization, accurately processing and organizing 250+ items per shift while maintaining a structured inventory database.
-            ●	Applied logistical coordination skills in security tagging, bin packing, and secure material handling procedures, preparing and managing 25+ shipments per shift while ensuring compliance with safety protocols.
-            ●	Deployed team collaboration and workflow optimization abilities to streamline inventory processing operations within a 15-member team, improving coordination and supporting a more efficient inventory management system.
-          
+            - Maximized organizational efficiency through RATEX inventory system management and item categorization, accurately processing and organizing 250+ items per shift while maintaining a structured inventory database.
+            - Applied logistical coordination skills in security tagging, bin packing, and secure material handling procedures, preparing and managing 25+ shipments per shift while ensuring compliance with safety protocols.
+            - Deployed team collaboration and workflow optimization abilities to streamline inventory processing operations within a 15-member team, improving coordination and supporting a more efficient inventory management system.
+
       - company: "Assistant Trainee Engineer at M. P. Associate Contractors Private Limited, Nagpur, MH, India"
         companyUrl: "https://mpaprojects.in/"
         jobs:
         - name: "Technical Project Manager"
           date: "Sep 2013 – Jul 2014"
           content: |-
-            ●	Actively tracked projects using Primavera Project Management Tool (PMT) for the installation of a 0.3 MTPA Iron Ore Beneficiation Unit and a 15MW Waste Heat Recovery Power Generation Plant, demonstrating strong project management skills and expertise in construction project tracking.
-            ●	Minimized project overhead costs to 14% and 18% by effectively updating key metrics such as scope, time, resources, and cost through site surveillance inputs into Primavera PMT, showcasing analytical skills and a keen understanding of financial management in engineering projects.
-            ●	Collaborated with cross-functional teams to ensure timely project delivery and compliance with safety standards, leveraging effective communication skills to facilitate coordination between engineering, procurement, and construction stakeholders.
-                    
+            - Actively tracked projects using Primavera Project Management Tool (PMT) for the installation of a 0.3 MTPA Iron Ore Beneficiation Unit and a 15MW Waste Heat Recovery Power Generation Plant, demonstrating strong project management skills and expertise in construction project tracking.
+            - Minimized project overhead costs to 14% and 18% by effectively updating key metrics such as scope, time, resources, and cost through site surveillance inputs into Primavera PMT, showcasing analytical skills and a keen understanding of financial management in engineering projects.
+            - Collaborated with cross-functional teams to ensure timely project delivery and compliance with safety standards, leveraging effective communication skills to facilitate coordination between engineering, procurement, and construction stakeholders.
+
       - company: "Engineering Intern at Hindustan Aeronautics Limited, Bengaluru, KA, India"
         companyUrl: "https://hal-india.co.in/"
         jobs:
         - name: "Engineering Design Specialist"
           date: "Feb 2013 – Apr 2013"
           content: |-
-            ●	Inspected 150 aircraft assemblies and sub-assemblies, utilizing principles of mechanical drafting and machine design to recommend 33 major design upgrades, demonstrating strong analytical skills and expertise in aerospace engineering.
-            ●	Reduced the return rate by 38% through precise corrections in part modeling using AutoCAD, CREO, CATIA, and SolidWorks, showcasing proficiency in CAD software and a commitment to enhancing product quality.
-            ●	Brainstormed with cross-functional teams to implement design improvements based on inspection findings, leveraging effective communication skills to ensure alignment between engineering objectives and production standards.
+            - Inspected 150 aircraft assemblies and sub-assemblies, utilizing principles of mechanical drafting and machine design to recommend 33 major design upgrades, demonstrating strong analytical skills and expertise in aerospace engineering.
+            - Reduced the return rate by 38% through precise corrections in part modeling using AutoCAD, CREO, CATIA, and SolidWorks, showcasing proficiency in CAD software and a commitment to enhancing product quality.
+            - Brainstormed with cross-functional teams to implement design improvements based on inspection findings, leveraging effective communication skills to ensure alignment between engineering objectives and production standards.
 
   # Education
   education:
@@ -355,195 +356,247 @@ params:
         school:
           name: "Auburn University"
           url: "https://www.auburn.edu/"
-        date: "2020 - 2025"
+        date: "Jan 2020 - Aug 2025"
         content: |-
-          𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬:
-          𝐏𝐡.𝐃. 𝐢𝐧 𝐈𝐧𝐝𝐮𝐬𝐭𝐫𝐢𝐚𝐥 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 (𝐈𝐄); 𝘈𝘶𝘨 2025
-          𝐌.𝐒. 𝐢𝐧 𝐈𝐄; 𝘔𝘢𝘺 2022
-          𝐆𝐫𝐚𝐝 𝐌𝐢𝐧𝐨𝐫 𝐢𝐧 𝐒𝐭𝐚𝐭𝐢𝐬𝐭𝐢𝐜𝐬; 𝘔𝘢𝘺 2022
-          𝐂𝐨𝐦𝐩𝐨𝐬𝐢𝐭𝐢𝐨𝐧𝐚𝐥 𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 (𝐂𝐨𝐃𝐀) 𝐂𝐞𝐫𝐭 at Universitat de Girona, Girona, Spain; 𝘔𝘢𝘳 2023
-          𝐆𝐫𝐚𝐝 𝐂𝐞𝐫𝐭 𝐢𝐧 𝐎𝐜𝐜𝐮𝐩𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐒𝐚𝐟𝐞𝐭𝐲 𝐚𝐧𝐝 𝐄𝐫𝐠𝐨𝐧𝐨𝐦𝐢𝐜𝐬 (𝐎𝐒𝐄); 𝘔𝘢𝘺 2021
+          **Certifications**
+          - Ph.D. in Industrial Engineering (IE); Aug 2025
+          - Graduate Minor in Statistics; May 2022
+          - Compositional Data Analysis (CoDA) Certificate at University of Girona, Girona, Catalonia, Spain; Mar 2023
+          - Graduate Certificate in Occupational Safety and Ergonomics (OSE); May 2021
           
-          𝐆𝐫𝐚𝐝𝐚𝐮𝐭𝐞 𝐓𝐞𝐚𝐜𝐡𝐢𝐧𝐠 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭:
-          𝐒𝐚𝐟𝐞𝐭𝐲 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 (𝐄𝐧𝐠𝐠) 𝐈; 𝘈𝘶𝘨 2024 - 𝘋𝘦𝘤 2024
-          𝐈𝐧𝐭𝐫𝐨 𝐭𝐨 𝐎𝐒𝐄; 𝘑𝘢𝘯 2024 - 𝘔𝘢𝘺 2024
-          𝐌𝐞𝐭𝐡𝐨𝐝𝐬 (𝐌𝐭𝐡𝐝) 𝐄𝐧𝐠𝐠; 𝘈𝘶𝘨 2023 - 𝘋𝘦𝘤 2023
-          𝐇F 𝐢𝐧 𝐄𝐧𝐠𝐠 𝐚𝐧𝐝 𝐃𝐞𝐬𝐢𝐠𝐧; 𝘔𝘢𝘺 2023 - 𝘈𝘶𝘨 2023
-          𝐈𝐧𝐭𝐫𝐨 𝐭𝐨 𝐎𝐒𝐄; 𝘑𝘢𝘯 2023 - 𝘔𝘢𝘺 2023
-          𝐈𝐧𝐭𝐫𝐨 𝐭𝐨 𝐈𝐄; 𝘈𝘶𝘨 2022 - 𝘋𝘦𝘤 2022
-          𝐌𝐭𝐡𝐝 𝐄𝐧𝐠𝐠 𝐋𝐚𝐛; 𝘈𝘶𝘨 2021 - 𝘔𝘢𝘺 2022
-          𝐌𝐭𝐡𝐝 𝐄𝐧𝐠𝐠 𝐋𝐚𝐛; Jan 2021 - May 2021
-          𝐄𝐧𝐠𝐠 𝐄𝐜𝐨𝐧𝐨𝐦𝐲; 𝘔𝘢𝘺 2020 - 𝘋𝘦𝘤 2020
-          𝐈𝐧𝐭𝐫𝐨 𝐭𝐨 𝐎𝐒𝐄; 𝘑𝘢𝘯 2020 - 𝘔𝘢𝘺 2020
+          **Graduate Teaching Assistant**
+          - Safety Engineering (Engg) I; Aug 2024 - Dec 2024
+          - Intro to OSE; Jan 2024 - May 2024
+          - Methods (Mthd) Engg; Aug 2023 - Dec 2023
+          - HF in Engg and Design; May 2023 - Aug 2023
+          - Intro to OSE; Jan 2023 -  May 2023
+          - Intro to IE; Aug 2022 - Dec 2022
+          - Mthd Engg Lab; Aug 2021 - May 2022
+          - Mthd Engg Lab; Jan 2021 - May 2021
+          - Engg Economy; May 2020 - Dec 2020
+          - Intro to OSE; Jan 2020 - May 2020
           
-          𝐆𝐫𝐚𝐝𝐮𝐚𝐭𝐞 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭:
-          𝐁𝐢𝐨𝐦𝐞𝐜𝐡𝐚𝐧𝐢𝐜𝐬 𝐋𝐚𝐛; 𝘈𝘶𝘨 2020 - 𝘑𝘶𝘭 2021
+          **Graduate Research Assistant**
+          - Biomechanics Lab; Aug 2020 - Jul 2021
           
-          𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠:
-          𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐇𝐏𝐂 at OLCF, Oak Ridge, TN; 𝘈𝘶𝘨 2024
-          𝐆𝐢𝐭𝐇𝐮𝐛 𝐟𝐨𝐫 𝐃𝐚𝐭𝐚 𝐒𝐜𝐢𝐞𝐧𝐭𝐢𝐬𝐭𝐬 on LinkedIn; 𝘑𝘶𝘯 2023
-          𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐭𝐡𝐞 𝐑 𝐓𝐢𝐝𝐲𝐯𝐞𝐫𝐬𝐞 on LinkedIn; 𝘖𝘤𝘵 2022
-        featuredLink:
-          enable: true
-          items:
+          **Training**
+          - Hands-on HPC at OLCF, Oak Ridge, TN; Aug 2024
+          - GitHub for Data Scientists on LinkedIn; Jun 2023
+          - Learning the R Tidyverse on LinkedIn; Oct 2022
+        resources:
           - name: "LinkedIn Learning"
+            icon: fa-graduation-cap
             url: "https://drive.google.com/file/d/1rgaGqBOkKa4XNB9w4a7wEZ4O_B1ZDjag/view?usp=drive_link"
           - name: "OLCF"
+            icon: fa-graduation-cap
             url: "https://drive.google.com/file/d/1sNy58HAEnVppfZ2FK2VSM_0bY_TQdyWt/view?usp=drive_link"
-          
+
       - title: "M.S. in Industrial Engineering"
         school:
           name: "University of Minnesota - Twin Cities"
           url: "https://twin-cities.umn.edu/"
-        date: "2015 - 2017"
+        date: "Aug 2015 - Dec 2017"
         content: |-
-          𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
-          𝐌.𝐒. 𝐢𝐧 𝐈𝐧𝐝𝐮𝐬𝐭𝐫𝐢𝐚𝐥 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠; Dec 2017
+          **Certifications**
+          - M.S. in Industrial Engineering; Dec 2017
           
-          𝐆𝐫𝐚𝐝𝐚𝐮𝐭𝐞 𝐓𝐞𝐚𝐜𝐡𝐢𝐧𝐠 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭
-          𝐇𝐮𝐦𝐚𝐧 𝐅𝐚𝐜𝐭𝐨𝐫𝐬 𝐚𝐧𝐝 𝐖𝐨𝐫𝐤 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬; 𝘈𝘶𝘨 2016 – 𝘋𝘦𝘤 2016
+          **Graduate Teaching Assistant**
+          - Human Factors and Work Analysis; Aug 2016 - Dec 2016
           
-          𝐆𝐫𝐚𝐝𝐮𝐚𝐭𝐞 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭
-          𝐀𝐟𝐟𝐨𝐫𝐝𝐚𝐧𝐜𝐞 𝐏𝐞𝐫𝐜𝐞𝐩𝐭𝐢𝐨𝐧-𝐀𝐜𝐭𝐢𝐨𝐧 𝐋𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐲 (𝐀𝐏𝐀𝐋); 𝘈𝘶𝘨 2016 - 𝘋𝘦𝘤 2017
-          𝐇𝐮𝐦𝐚𝐧𝐅𝐈𝐑𝐒𝐓 𝐋𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐲; 𝘔𝘢𝘺 2018 - 𝘑𝘶𝘭 2018
-          
+          **Graduate Research Assistant**
+          - Affordance Perception-Action Lab (APAL); Aug 2016 - Dec 2017
+          - HumanFIRST Lab; May 2018 - Jul 2018
+
       - title: "B.E. in Mechanical Engineering"
         school:
           name: "Visvesvaraya Technological University"
           url: "https://vtu.ac.in"
-        date: "2009 - 2013"
-        content: |-
-          𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
-          𝐁.𝐄. 𝐢𝐧 𝐌𝐞𝐜𝐡𝐚𝐧𝐢𝐜𝐚𝐥 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠; 𝘑𝘶𝘭 2013
+        date: "Aug 2009 - Jul 2013"
+        content: |
+          **Certifications**
           
-          𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠
-          𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐞 𝐂𝐨𝐮𝐫𝐬𝐞 𝐨𝐧 𝐀𝐮𝐭𝐨𝐂𝐀𝐃 2𝐃 at CADD Centre Training Services, Bengaluru, KA, India; 𝘑𝘶𝘭 2015
-          𝐏𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐞 𝐢𝐧 𝐏𝐫𝐨𝐝𝐮𝐜𝐭 𝐃𝐞𝐬𝐢𝐠𝐧 𝐚𝐧𝐝 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 at CADD Centre Training Services, Bengaluru, KA, India; 𝘑𝘶𝘭 2015
-          𝐃𝐢𝐩𝐥𝐨𝐦𝐚 𝐢𝐧 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 & 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐮𝐬𝐢𝐧𝐠 𝐏𝐫𝐢𝐦𝐚𝐯𝐞𝐫𝐚 at CADD Centre Training Services, Bengaluru, KA, India; 𝘑𝘶𝘭 2015
-          3-𝐃𝐚𝐲 𝐇𝐲𝐝𝐫𝐚𝐮𝐥𝐢𝐜 𝐚𝐧𝐝 𝐏𝐧𝐞𝐮𝐦𝐚𝐭𝐢𝐜 𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠 at VTU Bosch Rexroth Center of Competence in Automation Technologies, Bengaluru, KA, India; 𝘍𝘦𝘣 2013
-          3-𝐃𝐚𝐲 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠 at FANUC India Pvt Ltd, Bengaluru, KA, India; 𝘖𝘤𝘵 2012
-        featuredLink:
-          enable: true
-          name: "CADD Centre"
-          url: "https://drive.google.com/file/d/1XtHjdZ7So_-sZFph9rpPJzuW5FagHrVi/view?usp=drive_link"
+          - B.E. in Mechanical Enginereing; Jul 2013
+          
+          **Training**
+          
+          - Certificate Course on AutoCAD 2D at CADD Center Training Services, Bengaluru, KA, India; Jul 2015
+          - Professional Certificate in Product Design and Analysis at CADD Center Training Services, Bengaluru, KA, India; Jul 2015
+          - Diploma in Project Planning and Management using Primavera at CADD Center Training Services, Bengaluru, KA, India; Jul 2015
+          - 3-Day Hydraulic and Pnuematic Training at VTU Bosch Rexroth Center of Competence in Automation Technologies, Bengalutu, KA, India; Feb 2013
+          - 3-Day Automation Training at FANUC India Pvt. Ltd., Bengaluru, KA, India; Oct 2012
+        resources:
+          - name: "CADD Centre"
+            icon: fa-graduation-cap
+            url: "https://drive.google.com/file/d/1XtHjdZ7So_-sZFph9rpPJzuW5FagHrVi/view?usp=drive_link"
 
-  # Courses
-  Courses:
-    - title: "Associated with Oak Ridge National Laboratory"
-      items:
-        - title: "Fundamentals of Industrial Hygiene"
-          items:
-            - content: "Roane State Community College, Oak Ridge, TN"
-            - url: "https://www.roanestate.edu/?6258-Oak-Ridge-Campus"
-        - title: "Making Accurate Exposure Risk Decisions"
-          items:
-            - content: "American Industrial Hygiene Association"
-            - url: "https://www.aiha.org/education/elearning/online-courses/making-accurate-exposure-risk-decisions"
+  # Accomplishments
+  accomplishments:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: "Courses"
+        organizations:
+          - name: "Associated with Oak Ridge National Laboratory"
+            url: "https://www.ornl.gov/"
+            date: "May 2024 - Aug 2024"
+            content: |-
+              **Fundamentals of Industrial Hygiene**
+              - Held at Roane State Community College, Oak Ridge, TN
+              
+              **Making Accurate Exposure Risk Decisions**
+              - Online at American Industrial Hygiene Association
+
+      - title: "Honors and Awards"
+        organizations:
+          - name: "Associated with Auburn University"
+            url: "https://www.auburn.edu/"
+            date: "Jan 2020 - Aug 2025"
+            content: |-
+              **National Safety Council**
+              - 2024, 2023
+              
+              **American Society of Safety Professional**
+              - 2024, 2022
+              
+              **Global Electronics Association (formerly known as Institute of Printed Circuits)**
+              - 2022
         
-  # Honors and Awards
-  Honors and Awards:
-    - title: "Associated with Auburn University"
-      items:
-        - title: "𝗡𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗦𝗮𝗳𝗲𝘁𝘆 𝗖𝗼𝘂𝗻𝗰𝗶𝗹"
-          items:
-            - content: "2024 Diversity In Safety Award (Renewal)"
-            - url: "𝘩𝘵𝘵𝘱𝘴://𝘦𝘯𝘨.𝘢𝘶𝘣𝘶𝘳𝘯.𝘦𝘥𝘶/𝘯𝘦𝘸𝘴/2024/08/𝘴𝘪𝘹-𝘪𝘴𝘦-𝘥𝘰𝘤𝘵𝘰𝘳𝘢𝘭-𝘴𝘵𝘶𝘥𝘦𝘯𝘵𝘴-𝘢𝘸𝘢𝘳𝘥𝘦𝘥-𝘢𝘴𝘴𝘱-𝘧𝘰𝘶𝘯𝘥𝘢𝘵𝘪𝘰𝘯-𝘴𝘤𝘩𝘰𝘭𝘢𝘳𝘴𝘩𝘪𝘱𝘴"
-        - title: "𝗔𝗺𝗲𝗿𝗶𝗰𝗮𝗻 𝗦𝗼𝗰𝗶𝗲𝘁𝘆 𝗼𝗳 𝗦𝗮𝗳𝗲𝘁𝘆 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹𝘀"
-          items:
-            - content: "2024 ASSP Foundation Scholarship Award"
-            - url: "𝘩𝘵𝘵𝘱𝘴://𝘧𝘰𝘶𝘯𝘥𝘢𝘵𝘪𝘰𝘯.𝘢𝘴𝘴𝘱.𝘰𝘳𝘨/𝘴𝘤𝘩𝘰𝘭𝘢𝘳𝘴𝘩𝘪𝘱-𝘢𝘯𝘥-𝘨𝘳𝘢𝘯𝘵𝘴-𝘳𝘦𝘤𝘪𝘱𝘪𝘦𝘯𝘵𝘴/2024/"
-        - title: "𝗡𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗦𝗮𝗳𝗲𝘁𝘆 𝗖𝗼𝘂𝗻𝗰𝗶𝗹"
-          items:
-            - content: "2023 Diversity In Safety Award"
-            - url: "𝘩𝘵𝘵𝘱𝘴://𝘸𝘸𝘸.𝘴𝘢𝘧𝘦𝘵𝘺𝘢𝘯𝘥𝘩𝘦𝘢𝘭𝘵𝘩𝘮𝘢𝘨𝘢𝘻𝘪𝘯𝘦.𝘤𝘰𝘮/𝘢𝘳𝘵𝘪𝘤𝘭𝘦𝘴/24673-𝘯𝘴𝘤-𝘢𝘯𝘯𝘰𝘶𝘯𝘤𝘦𝘴-𝘴𝘤𝘩𝘰𝘭𝘢𝘳𝘴𝘩𝘪𝘱-𝘳𝘦𝘤𝘪𝘱𝘪𝘦𝘯𝘵𝘴"
-        - title: "𝗔𝗺𝗲𝗿𝗶𝗰𝗮𝗻 𝗦𝗼𝗰𝗶𝗲𝘁𝘆 𝗼𝗳 𝗦𝗮𝗳𝗲𝘁𝘆 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹𝘀"
-          items:
-            - content: "2022 ASSP Foundation Scholarship Award"
-            - url: "𝘩𝘵𝘵𝘱𝘴://𝘧𝘰𝘶𝘯𝘥𝘢𝘵𝘪𝘰𝘯.𝘢𝘴𝘴𝘱.𝘰𝘳𝘨/𝘴𝘤𝘩𝘰𝘭𝘢𝘳𝘴𝘩𝘪𝘱-𝘢𝘯𝘥-𝘨𝘳𝘢𝘯𝘵𝘴-𝘳𝘦𝘤𝘪𝘱𝘪𝘦𝘯𝘵𝘴/2022/"
-        - title: "𝗚𝗹𝗼𝗯𝗮𝗹 𝗘𝗹𝗲𝗰𝘁𝗿𝗼𝗻𝗶𝗰𝘀 𝗔𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗶𝗼𝗻"
-          items:
-            - content: "2022 IPC Education Foundation Scholarship Award"
-            - url: "𝘩𝘵𝘵𝘱𝘴://𝘸𝘸𝘸.𝘦𝘭𝘦𝘤𝘵𝘳𝘰𝘯𝘪𝘤𝘴𝘧𝘰𝘶𝘯𝘥𝘢𝘵𝘪𝘰𝘯.𝘰𝘳𝘨/2022-𝘴𝘤𝘩𝘰𝘭𝘢𝘳𝘴𝘩𝘪𝘱-𝘸𝘪𝘯𝘯𝘦𝘳𝘴"
-        
-  # Organizations
-  Organizations:
-    - title: "Associated with Auburn University"
-      items:
-        - title: "𝗔𝗺𝗲𝗿𝗶𝗰𝗮𝗻 𝗦𝗼𝗰𝗶𝗲𝘁𝘆 𝗼𝗳 𝗦𝗮𝗳𝗲𝘁𝘆 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹𝘀 (𝗔𝗦𝗦𝗣) 𝗦𝘁𝘂𝗱𝗲𝗻𝘁 𝗖𝗵𝗮𝗽𝘁𝗲𝗿"
-          items:
-            - content: "Communications Director (𝘔𝘢𝘺 2022 - 𝘈𝘶𝘨 2024)"
-              items:
-                - url: "https://www.linkedin.com/posts/bharadwajss_a-big-thanks-to-rausch-pausch-lp-aka-activity-7125547897424662529-y-Fq
-                - url: https://www.linkedin.com/posts/auburn-ise_auburn-engineering-studentsuccess-activity-7170898480457064448-tAym"
-        - title: "𝗪𝗼𝗺𝗲𝗻 𝗜𝗻 𝗦𝗮𝗳𝗲𝘁𝘆 𝗘𝘅𝗰𝗲𝗹𝗹𝗲𝗻𝗰𝗲 (𝗪𝗜𝗦𝗘) 𝗖𝗼𝗺𝗺𝗼𝗻 𝗜𝗻𝘁𝗲𝗿𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽 (𝗖𝗜𝗚)"
-          items:
-            - content: "Event Coordinator (𝘑𝘢𝘯 2022 - 𝘈𝘶𝘨 2024)"
-              items:
-                - url: "https://www.linkedin.com/feed/update/urn:li:activity:7120877869655891968
-                - url: https://www.linkedin.com/posts/ashleylathamgill_wise-assp-safetyprofessionals-activity-7374559486629302272-Vsyu"
-        - title: "𝗛𝘂𝗺𝗮𝗻 𝗙𝗮𝗰𝘁𝗼𝗿𝘀 𝗮𝗻𝗱 𝗘𝗿𝗴𝗼𝗻𝗼𝗺𝗶𝗰𝘀 𝗦𝗼𝗰𝗶𝗲𝘁𝘆 (𝗛𝗙𝗘𝗦) 𝗦𝘁𝘂𝗱𝗲𝗻𝘁 𝗖𝗵𝗮𝗽𝘁𝗲𝗿"
-          items:
-            - content: "Communications Director (𝘕𝘰𝘷 2020 - 𝘈𝘶𝘨 2024)"
-              items:
-                - url: "https://www.linkedin.com/posts/bharadwajss_hfes-wareagle-activity-6921494545004130305-YuPK
-                - url: https://eng.auburn.edu/news/2023/12/auburn-hfes-earns-gold-student-chapter-award.html"
-      
-    - title: "Associated with University of Minnesota - Twin Cities"
-      items:
-        - title: "𝗜𝗻𝗱𝗶𝗮𝗻 𝗦𝘁𝘂𝗱𝗲𝗻𝘁 𝗔𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗶𝗼𝗻 (𝗜𝗦𝗔) 𝗦𝘁𝘂𝗱𝗲𝗻𝘁 𝗖𝗵𝗮𝗽𝘁𝗲𝗿"
-          items:
-            - content: |-
-                Graduate Student Engagement (GSE) Committee (𝘈𝘶𝘨 2016 - 𝘑𝘢𝘯 2017)
-                Graduate Chair (𝘑𝘢𝘯 2016 - 𝘑𝘢𝘯 2017)"
-            - url: "https://www.facebook.com/photo/?fbid=922692447830154"
-        - title: "𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐚𝐧𝐝 𝐒𝐜𝐡𝐨𝐥𝐚𝐫 𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬 (𝐈𝐒𝐒𝐒) 𝐂𝐫𝐨𝐬𝐬-𝐂𝐮𝐥𝐭𝐮𝐫𝐚𝐥 𝐃𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧 𝐆𝐫𝐨𝐮𝐩)"
-          items:
-            - content: "General Member (𝘈𝘶𝘨 2015 - 𝘋𝘦𝘤 2017)"
-            - url: "https://drive.google.com/file/d/1FLhLV5mNBha4D101znADr5gbsm30o-WQ/view?usp=drive_link"
-        
-  # Volunteering
-  Volunteering:
-    - title: "National Multiple Sclerosis Society"
-      items:
-        - title: "2026, 2025 Bike MS 150: Cycle to the Shores"
-          items:
-            - content: "Ponte Vedra Beach, FL"
-            - url: "https://drive.google.com/file/d/1VaVD8PLnxJSqESzc2xgtN7tAVLdwpqdr/view?usp=drive_link"
-        - title: "2026, 2022, 2021 Bike MS 150: Tour de Beach"
-          items:
-            - content: "Gulf Shores, AL"
-            - url: "https://drive.google.com/file/d/1DBkAx23V3fnw72KALoRvci_8gSj9DukA/view?usp=drive_link"
-        - title: "2024, 2023 Bike MS 150: Bike To Jack and back"
-          items:
-            - content: "Eagleville, TN"
-            - url: "https://drive.google.com/file/d/14vqPCg110qeHwG9VFQ0uanW88aP_yoht/view?usp=drive_link"
-        - title: "2021 Bike MS 150: Atlanta Peach Ride"
-          items:
-            - content: "LaGrange, GA"
-            - url: "https://drive.google.com/file/d/1Ib1j4wFCOg48GDQl3e4QAvrBxrrk42Bk/view?usp=drive_link"
-        - title: "2019 Bike MS 150: Minnesota Ride"
-          items:
-            - content: "White Bear Lake, MN"
-            - url: "https://drive.google.com/file/d/1V_wmVJOs3yOdCR8WuEe5dR7EsXwQI3kh/view?usp=drive_link"
-        
-    - title: "Special Olympics"
-      items:
-        - title: "2021-2026 Auburn Annual Polar Plunge"
-          items:
-            - content: "Auburn, AL"
-            - url: "https://drive.google.com/file/d/1IBrV0SN0frtk2bQXqc4fczSL8WuPloe7/view?usp=drive_link"
-        - title: "2022, 2024 Auburn University Polar Plunge"
-          items:
-            - content: "Auburn University, Auburn, AL"
-            - url: "https://drive.google.com/file/d/19_zY5OlANDuN12ZeFBXDNALT2doP0e1x/view?usp=drive_link"
-        - title: "2017 University of Minnesota - Twin Cities Gopher Plunge"
-          items:
-            - content: "University of Minnesota - Twin Cities, Minneapolis, MN"
-            - url: "https://drive.google.com/file/d/1xF9ETNnk-8epoIZXNA2nf-1aX_tjYEle/view?usp=drive_link"
-        - title: "2016 Minneapolis Polar Plunge"
-          items:
-            - content: "Minneapolis, MN"
-            - url: "https://drive.google.com/file/d/1hlAm8xaX3a54a4yJVPwERQiiDoa3-cdK/view?usp=drive_link"
+      - title: "Organizations"
+        organizations:
+          - name: "Associated with Auburn University"
+            url: "https://www.auburn.edu/"
+            date: "Nov 2020 - Aug 2024"
+            content: |-
+              **American Society of Safety Professionals (ASSP) Student Chapter**
+              - Communications Director; May 2022 - Aug 2024
+              
+              **Women in Safety Excellence (WISE) Common Interest Group (CIG)**
+              - Eevent Coordination; Jan 2022 - Aug 2024
+              
+              **Human Factors and Ergonomics Society (HFES) Student Chapter**
+              - Communications Director; Nov 2020 - Aug 2024
+
+          - name: "Associated with University of Minnesota - Twin Cities"
+            url: "https://twin-cities.umn.edu/"
+            date: "Jan 2016 - Jan 2017"
+            content: |-
+              **Indian Student Association (ISA) Student Chapter**
+              - Graduatre Student Engagement (GSE) Committee; Aug 2016 - Jan 2017
+              - Graduate Chair; Jan 2016 - Jan 2017
+              
+              **International Student and Scholar Services (ISSS) Cross-Cultural Discussion Group (CCDG)**
+              - General Member; Aug 2016 - Dec 2016
+
+        resources:
+          - name: "Auburn24"
+            icon: fa-globe
+            url: "https://eng.auburn.edu/news/2024/08/six-ise-doctoral-students-awarded-assp-foundation-scholarships"
+          - name: "ASSP24"
+            icon: fa-globe
+            url: "https://foundation.assp.org/scholarship-and-grants-recipients/2024/"
+          - name: "NSC23"
+            icon: fa-globe
+            url: "https://www.safetyandhealthmagazine.com/24673-nsc-announces-scholarship-recipients/"
+          - name: "ASSP22"
+            icon: fa-globe
+            url: "https://foundation.assp.org/scholarship-and-grants-recipients/2022/"
+          - name: "GEA22"
+            icon: fa-globe
+            url: "https://www.electronicsfoundation.org/2022-scholarship-winners"
+          - name: "WISE25"
+            icon: fa-globe
+            url: "https://www.linkedin.com/posts/ashleylathamgill_wise-assp-safetyprofessionals-activity-7374559486629302272-Vsyu"
+          - name: "ASSP23"
+            icon: fa-globe
+            url: "https://www.linkedin.com/posts/bharadwajss_a-big-thanks-to-rausch-pausch-lp-aka-activity-7125547897424662529-y-Fq"
+          - name: "AUB23"
+            icon: fa-globe
+            url: "https://www.linkedin.com/posts/auburn-ise_auburn-eng"
+          - name: "WISE23"
+            icon: fa-globe
+            url: "https://www.linkedin.com/feed/update/urn:li:activity:7120877869655891968"
+          - name: "HFES23"
+            icon: fa-globe
+            url: "https://eng.auburn.edu/news/2023/12/auburn-hfes-earns-gold-student-chapter-award.html"
+          - name: "HFES22"
+            icon: fa-globe
+            url: "https://www.linkedin.com/posts/bharadwajss_hfes-wareagle-activity-6921494545004130305-YuPK"
+          - name: "ISA16"
+            icon: fa-globe
+            url: "https://www.facebook.com/photo/?fbid=922692447830154"
+          - name: "ISSS16"
+            icon: fa-camera
+            url: "https://drive.google.com/file/d/1FLhLV5mNBha4D101znADr5gbsm30o-WQ/view?usp=drive_link"
+
+      - title: "Volunteering"
+        organizations:
+          - name: "National Multiple Sclerosis Society"
+            url: "https://www.nationalmssociety.org/"
+            date: "Apr 2019 - Present"
+            content: |-
+              Nine-time fundraiser for the National Multiple Sclerosis Society (NMSS) and Bike MS150 finisher.
+              
+              **Bike MS 150: Cycle to the Shores**
+              - 2026, 2025
+              
+              **Bike MS 150: Tour de Beach**
+              - 2026, 2022, 2021
+              
+              **Bike MS 150: Bike To Jack and back**
+              - 2024, 2023
+              
+              **Bike MS 150: Atlanta Peach Ride**
+              - 2021
+              
+              **Bike MS 150: Minnesota Ride**
+              - 2019
+                
+          - name: "Special Olympics"
+            url: "https://www.specialolympics.org/"
+            date: "Apr 2016 - Present"
+            content: |-
+              Ten-time Special Olympics fundraiser and Polar Plunge contender.
+              
+              **Auburn Annual Polar Plunge**
+              - 2021-2026
+              
+              **Auburn University Polar Plunge**
+              - 2022, 2024
+              
+              **University of Minnesota - Twin Cities Gopher Plunge**
+              - 2017
+              
+              **Minneapolis Polar Plunge**
+              - 2016
+              
+        resources:
+            - name: "BikeMS25-2"
+              icon: fa-camera
+              url: "https://drive.google.com/file/d/1VaVD8PLnxJSqESzc2xgtN7tAVLdwpqdr/view?usp=drive_link"
+            - name: "BikeMS25"
+              icon: fa-camera
+              url: "https://drive.google.com/file/d/14vqPCg110qeHwG9VFQ0uanW88aP_yoht/view?usp=drive_link"
+            - name: "BikeMS22"
+              icon: fa-camera
+              url: "https://drive.google.com/file/d/1DBkAx23V3fnw72KALoRvci_8gSj9DukA/view?usp=drive_link"
+            - name: "BikeMS21"
+              icon: fa-camera
+              url: "https://drive.google.com/file/d/1Ib1j4wFCOg48GDQl3e4QAvrBxrrk42Bk/view?usp=drive_link"
+            - name: "BikeMS19"
+              icon: fa-camera
+              url: "https://drive.google.com/file/d/1V_wmVJOs3yOdCR8WuEe5dR7EsXwQI3kh/view?usp=drive_link"
+            - name: "Plunge26"
+              icon: fa-camera
+              url: "https://drive.google.com/file/d/1IBrV0SN0frtk2bQXqc4fczSL8WuPloe7/view?usp=drive_link"
+            - name: "Plunge22"
+              icon: fa-camera
+              url: "https://drive.google.com/file/d/19_zY5OlANDuN12ZeFBXDNALT2doP0e1x/view?usp=drive_link"
+            - name: "Plunge17"
+              icon: fa-camera
+              url: "https://drive.google.com/file/d/1xF9ETNnk-8epoIZXNA2nf-1aX_tjYEle/view?usp=drive_link"
+            - name: "Plunge16"
+              icon: fa-camera
+              url: "https://drive.google.com/file/d/1hlAm8xaX3a54a4yJVPwERQiiDoa3-cdK/view?usp=drive_link"
 
   #Contact
   contact:
@@ -562,7 +615,7 @@ params:
   footer:
     recentPosts:
       path: "blogs"
-      count: 0
+      count: 3
       title: Recent Posts
       enable: true
       disableFeaturedImage: false
