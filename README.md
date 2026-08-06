@@ -6,8 +6,9 @@ This approach uses GitHub's cloud-based CI/CD environment to build and deploy th
 
 ---
 
-# Phase 1 – Portfolio Initialization & Hugo Profile Customization
-# Overview
+# **Phase 1 – Portfolio Initialization & Hugo Profile Customization**
+
+## Objective
 
 This project creates a static portfolio website using:
 
@@ -25,7 +26,6 @@ The local computer only requires:
 
 No local installation of:
 
-* Hugo
 * Go
 * Node.js
 
@@ -581,6 +581,167 @@ Building a portfolio website with Hugo and GitHub Actions provides:
 The most important technical lesson:
 
 > Hugo configuration is only as reliable as the YAML structure behind it. Understanding YAML dictionaries, lists, indentation, and multiline strings is essential for maintaining a static website configuration.
+
+---
+
+# **Phase 2 – Refactoring Hugo Profile Templates for Structural Consistency**
+
+## Objective
+
+The original Hugo Profile theme provided separate templates for the **Education**, **Experience**, and **Accomplishments** sections. Although each section served a similar purpose (displaying chronological information in a card-based layout), they were implemented using different HTML structures and styling conventions. This made future customization difficult, as visual changes often had to be implemented independently in multiple templates.
+
+The goal of this phase was to standardize these sections by introducing a consistent HTML structure and centralized CSS styling while preserving each section's unique functionality.
+
+---
+
+## Files Modified
+
+### HTML Templates
+
+```
+layouts/partials/sections/
+├── education.html
+├── experience.html
+└── accomplishments.html
+```
+
+### Stylesheet
+
+```
+assets/css/index.css
+```
+
+---
+
+## Step 1 – Analyze Existing Theme Structure
+
+Before making any modifications, the original Hugo Profile templates were compared to understand how each section was rendered.
+
+Observations included:
+
+* Education already used a clean Bootstrap card layout.
+* Experience contained additional nesting for multiple positions within a company.
+* Accomplishments had been adapted from the Education template but contained structural inconsistencies.
+* Similar UI components were implemented differently across templates, making maintenance unnecessarily difficult.
+
+This analysis established Education as the visual reference for the remaining sections.
+
+---
+
+## Step 2 – Standardize HTML Templates
+
+The three section templates were refactored to follow the same overall structure wherever possible.
+
+Key improvements included:
+
+* Consistent Bootstrap card hierarchy.
+* Unified spacing and container organization.
+* Consistent use of Bootstrap utility classes.
+* Removal of unnecessary inline styling.
+* Improved readability through cleaner indentation and organization.
+* Preservation of section-specific functionality (for example, Experience still supports multiple jobs within a company).
+
+Rather than rewriting functionality, the focus was on making the templates easier to maintain while preserving compatibility with Hugo Profile.
+
+---
+
+## Step 3 – Introduce Dedicated Content Wrappers
+
+Dedicated content wrapper classes were introduced for each section.
+
+```
+education-content
+experience-content
+accomplishments-content
+```
+
+These wrapper classes provide a common location for formatting long-form Markdown content while allowing each section to receive custom styling independently if needed.
+
+This approach avoids relying on generic selectors and improves future extensibility.
+
+---
+
+## Step 4 – Consolidate Styling in index.css
+
+Visual styling that had previously been scattered between templates and CSS was centralized.
+
+Changes included:
+
+* Standardized card appearance.
+* Unified border styling.
+* Consistent border radius.
+* Common background colors.
+* Standardized spacing and padding.
+* Improved typography consistency.
+* Shared formatting rules for Markdown-generated content.
+
+Centralizing these rules significantly reduces duplicated styling and makes future visual updates much easier.
+
+---
+
+## Step 5 – Preserve Section-Specific Features
+
+Although the visual design was standardized, each section retained its unique functionality.
+
+### Education
+
+* Tab-based navigation
+* Institution information
+* GPA display
+* Resources section
+
+### Experience
+
+* Company grouping
+* Multiple positions within the same employer
+* Tooltips
+* Featured links and custom icons
+
+### Accomplishments
+
+* Organization listing
+* Achievement metadata
+* Resource links
+* Flexible Markdown descriptions
+
+The objective was consistency—not identical templates.
+
+---
+
+## Step 6 – Navigation and Section Validation
+
+After restructuring the templates, section navigation was verified to ensure:
+
+* Navigation bar links correctly target each section.
+* Section anchors function as expected.
+* Hugo-generated content renders correctly.
+* Bootstrap components continue functioning without modification.
+
+During testing, browser caching and Hugo live reload occasionally delayed visible updates. Performing a manual browser refresh confirmed that the implemented changes had been applied successfully.
+
+---
+
+## Lessons Learned
+
+Several important lessons emerged during this phase:
+
+* HTML structure and CSS should be standardized together rather than independently.
+* Bootstrap grid layouts are sensitive to container hierarchy; small structural changes can unintentionally affect responsive behavior.
+* Centralizing styling in `index.css` greatly simplifies long-term maintenance.
+* Hugo's live-reload server may not immediately reflect template or stylesheet updates, making manual refreshes an important part of the debugging workflow.
+* Incremental testing after each modification is more effective than introducing multiple structural changes simultaneously.
+
+---
+
+## Outcome
+
+At the conclusion of Phase 2:
+
+* The Education, Experience, and Accomplishments sections share a consistent visual design.
+* Card layouts are standardized across the portfolio.
+* Styling has been centralized into reusable CSS.
+* HTML templates are cleaner, more maintainable, and easier to extend.
+* The project now has a stronger architectural foundation for future customization, including additional sections, theme enhancements, and responsive design improvements.
 
 ---
 
