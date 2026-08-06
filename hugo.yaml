@@ -78,7 +78,7 @@ params:
   title: "Suhas"
   description: Suhas
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/fav-new.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -152,7 +152,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Suhas."
-    subtitle: "I make organizations safer and strengthen the health of communities."
+    subtitle: "I make organizations safer and communities healthier."
     content: "I'm an expert in Occupational Health and Public Health, bringing invaluable skills to support the success of the organization and its team, including proficiency in statistical programming such as Python, R, SAS and SQL, expertise in federal and state occupational safety (OSHA), mining safety (MSHA), energy (DOE) and environmental regulatory (EPA) compliance, as well as strong stakeholder communication, and presentation skills. Through harnessing big‐data, statistical modeling, and advanced analytics, I turn complex evidence into actionable insights that improve workplace safety, environmental stewardship, and community well‐being."
     image: "/0141.jpg"
     bottomImage:
@@ -173,7 +173,7 @@ params:
         - icon: fab fa-facebook
           url: https://www.facebook.com/bhara033/
       customIcons:
-        - icon: /google-scholar.png
+        - icon: /google-scholar.svg
           url: "https://scholar.google.com/citations?user=RyS9vJwAAAAJ&hl=en"
 
   # About
@@ -620,11 +620,11 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      facebook: https://facebook.com
-      google scholar: https://scholar.google.com/
-
+      github: https://github.com/bhara033/
+      linkedin: https://www.linkedin.com/in/bharadwajss/
+      facebook: https://www.facebook.com/bhara033/
+      googlescholar: https://scholar.google.com/citations?user=RyS9vJwAAAAJ&hl=en
+      
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false

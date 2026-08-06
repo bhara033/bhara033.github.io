@@ -3,64 +3,148 @@
 <section id="education" class="py-5">
     <div class="container">
         <h3 class="text-center">{{ $education.title | default .Site.Params.education.title | default (i18n "education") }}</h3>
+
         <div class="row justify-content-center py-5">
-            {{ $indexMenu := .Site.Params.education.index }}
-            {{ range $index, $element := $education.items | default .Site.Params.education.items }}
-            <div class="col-12 p-0">
-                <div class="row row align-items-center justify-content-center m-1 mb-4">
-                    {{ if $indexMenu }}
-                    <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
-                        <div class="py-2">
-                            <span class="index shadow-lg">
-                                {{ add $index 1 }}
-                            </span>
-                        </div>
+
+            <!-- Education Tabs -->
+            <ul class="nav nav-pills justify-content-center flex-wrap mb-2 bg-transparent secondary-font"
+            id="education-pills-tab"
+            role="tablist">
+
+                {{ range $index, $element := $education.items | default .Site.Params.education.items }}
+
+                <li class="nav-item mx-1 bg-transparent" role="presentation">
+                    <div
+                        class="nav-link {{ if eq $index 0 }}active{{ end }} bg-transparent"
+                        aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+                        role="tab"
+                        data-bs-toggle="pill"
+                        id="education-{{ $index }}-tab"
+                        data-bs-target="#education-{{ $index }}"
+                        aria-controls="education-{{ $index }}"
+                    >
+                        {{ .school.name }}
                     </div>
-                    {{ end }}
+                </li>
 
-                    <div class="col-md-9">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="float-end">
-                                    <small>{{ .date }}</small>
-                                </div>
-                                <h5 class="card-title">{{ .title }}</h5>
-                                
-                                {{ if .school.url }}
-                                <a href="{{ .school.url }}" target="_blank">
-                                    <h6>
-                                    {{ .school.name }}
-                                    </h6>
-                                </a>
-                                {{ else }}
-                                {{ .school.name }}
-                                {{ end }}
+                {{ end }}
 
-                                {{ if .GPA }}
-                                <div class="py-1">
-                                    GPA:
-                                    <i>
-                                        <small>{{ .GPA }}</small>
-                                    </i> 
-                                </div>
-                                {{ end }}
-                                <div class="py-1 education-content">
-                                    {{ .content | markdownify}}
-                                </div>
+            </ul>
 
-                                {{ if .featuredLink.enable }}
-                                <div class="py-1">
-                                    <a href="{{ .featuredLink.url }}" class="btn">
-                                        {{ .featuredLink.name | default "Featured" }}
-                                    </a>
+
+            <!-- Education Tab Content -->
+            <div class="tab-content pb-3 bg-transparent secondary-font" id="education-pills-tabContent">
+
+                {{ range $index, $element := $education.items | default .Site.Params.education.items }}
+
+                <div
+                    class="tab-pane fade bg-transparent {{ if eq $index 0 }}show active{{ end }}"
+                    role="tabpanel"
+                    id="education-{{ $index }}"
+                    aria-labelledby="education-{{ $index }}-tab"
+                >
+
+                    <div class="col-12 p-0">
+                        <div class="row align-items-center justify-content-center m-1 mb-4">
+
+                            {{ if $education.index }}
+                            <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
+                                <div class="py-2">
+                                    <span class="index shadow-lg">
+                                        {{ add $index 1 }}
+                                    </span>
                                 </div>
-                                {{ end }}
                             </div>
+                            {{ end }}
+
+                            <div class="col-md-9">
+
+                                <div class="card shadow-sm h-100 bg-white">
+                                    <div class="card-body">
+
+                                        <div class="float-end">
+                                            <small>{{ .date }}</small>
+                                        </div>
+
+                                        <h5 class="card-title">{{ .title }}</h5>
+
+                                        {{ if .school.url }}
+                                        <a href="{{ .school.url }}" target="_blank">
+                                            <h6>{{ .school.name }}</h6>
+                                        </a>
+                                        {{ else }}
+                                        <h6>{{ .school.name }}</h6>
+                                        {{ end }}
+
+                                        {{ if .GPA }}
+                                        <div class="py-1">
+                                            GPA:
+                                            <i>
+                                                <small>{{ .GPA }}</small>
+                                            </i>
+                                        </div>
+                                        {{ end }}
+
+                                        <div class="py-1 education-content">
+                                            {{ .content | markdownify }} <!-- can use either markdownify or plainify -->
+                                        </div>
+
+                                        <!-- Resources -->
+                                        {{ if .resources }}
+                                        
+                                        <div class="py-2">
+                                        
+                                            <button class="btn btn-outline-secondary btn-sm"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#resources{{ $index }}">
+                                        
+                                                Resources ({{ len .resources }})
+                                        
+                                            </button>
+                                        
+                                        
+                                            <div class="collapse mt-2" id="resources{{ $index }}">
+                                        
+                                                {{ range .resources }}
+                                        
+                                                <div class="mb-1">
+                                        
+                                                    <a href="{{ .url }}"
+                                                       target="_blank">
+                                        
+                                                        {{ if .icon }}
+                                                        <i class="fas {{ .icon }}"></i>
+                                                        {{ end }}
+                                        
+                                                        {{ .name }}
+                                        
+                                                    </a>
+                                        
+                                                </div>
+                                        
+                                                {{ end }}
+                                        
+                                            </div>
+                                        
+                                        </div>
+                                        
+                                        {{ end }}
+
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
                     </div>
+
                 </div>
+
+                {{ end }}
+
             </div>
-            {{ end }}
+
         </div>
     </div>
 </section>

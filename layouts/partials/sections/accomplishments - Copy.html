@@ -1,7 +1,7 @@
 {{ if .Site.Params.accomplishments.enable | default false }}
 {{- $accomplishments := .Site.Language.Params.accomplishments | default .Site.Params.accomplishments -}}
 
-<section id="accomplishments" class="py-5">
+<section id="education" class="py-5">  <!-- changed id="accomplishments" to id="education" to match section styling-->
     <div class="container">
 
         <h3 class="text-center">
@@ -31,7 +31,7 @@
 
                     <div class="col-md-9">
 
-                        <div class="card">
+                          <div class="card shadow-sm h-100 bg-white">
                             <div class="card-body">
 
                                 <div class="float-end">
@@ -44,17 +44,29 @@
                                     {{ .title }}
                                 </h5>
 
-
                                 <!-- Organization -->
                                 {{ range .organizations }}
                                 
+                                <div class="d-flex justify-content-between align-items-center">
+                                
                                     {{ if .url }}
                                     <a href="{{ .url }}" target="_blank">
-                                        <h6>{{ .name }}</h6>
+                                        {{ .name }}
                                     </a>
                                     {{ else }}
-                                    <h6>{{ .name }}</h6>
+                                        {{ .name }}
                                     {{ end }}
+                                
+                                    {{ if .date }}
+                                    <small>{{ .date }}</small>
+                                    {{ end }}
+                                
+                                </div>
+                                
+                                
+                                <div class="py-1">
+                                    {{ .content | markdownify }}
+                                </div>
                                 
                                 {{ end }}
 
@@ -72,19 +84,51 @@
 
                                 <!-- Description -->
                                 <div class="py-1 education-content">
-                                    {{ .content | markdownify }}
+                                    {{ .content | markdownify }} <!-- can use either markdownify or plainify -->
                                 </div>
 
 
                                 <!-- Featured Link -->
-                                {{ if .featuredLink.enable }}
-
-                                <div class="py-1">
-                                    <a href="{{ .featuredLink.url }}" class="btn">
-                                        {{ .featuredLink.name | default "Featured" }}
-                                    </a>
+                                <!-- Resources -->
+                                {{ if .resources }}
+                                
+                                <div class="py-2">
+                                
+                                    <button class="btn btn-outline-secondary btn-sm"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#resources{{ $index }}">
+                                
+                                        Resources ({{ len .resources }})
+                                
+                                    </button>
+                                
+                                
+                                    <div class="collapse mt-2" id="resources{{ $index }}">
+                                
+                                        {{ range .resources }}
+                                
+                                        <div class="mb-1">
+                                
+                                            <a href="{{ .url }}"
+                                               target="_blank">
+                                
+                                                {{ if .icon }}
+                                                <i class="fas {{ .icon }}"></i>
+                                                {{ end }}
+                                
+                                                {{ .name }}
+                                
+                                            </a>
+                                
+                                        </div>
+                                
+                                        {{ end }}
+                                
+                                    </div>
+                                
                                 </div>
-
+                                
                                 {{ end }}
 
 
@@ -105,23 +149,3 @@
 </section>
 
 {{ end }}
-
-<!--
-{{ if .organization.url }}
-                                
-                                <a href="{{ .organization.url }}" target="_blank">
-                                    <h6>
-                                        {{ .organization.name }}
-                                    </h6>
-                                </a>
-                                
-                                {{ else }}
-                                
-                                {{ if .organization.name }}
-                                <h6>
-                                    {{ .organization.name }}
-                                </h6>
-                                {{ end }}
-                                
-                                {{ end }}
--->

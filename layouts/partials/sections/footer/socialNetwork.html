@@ -93,4 +93,10 @@
     </a>
     {{ end }}
 	
+	{{ if .Site.Params.footer.socialNetworks.googleScholar }}
+    <a href="{{ .Site.Params.footer.socialNetworks.googleScholar }}" target="_blank" aria-label="google scholar">
+        <img src="/google-scholar.svg" alt="Google Scholar" width="48px" height="48px">
+    </a>
+    {{ end }}
+	
 </div>
