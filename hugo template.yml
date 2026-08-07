@@ -1,0 +1,169 @@
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: "Ph.D."
+        school:
+          name: ""
+          url: ""
+        date: ""
+        content: |-
+
+        resources:
+            - name: ""
+              icon: ""
+              url: ""
+			  
+			- name: ""
+              icon: ""
+              url: 
+			  
+			- name: ""
+              icon: ""
+              url: ""
+              
+      - title: "M.S."
+        school:
+          name: ""
+          url: ""
+        date: ""
+        content: |-
+
+        resources:
+            - name: ""
+              icon: ""
+              url: ""
+			  
+			- name: ""
+              icon: ""
+              url: 
+			  
+			- name: ""
+              icon: ""
+              url: ""
+              
+      - title: "B.E."
+        school:
+          name: ""
+          url: ""
+        date: ""
+        content: |-
+
+        resources:
+            - name: ""
+              icon: ""
+              url: ""
+			  
+			- name: ""
+              icon: ""
+              url: 
+			  
+			- name: ""
+              icon: ""
+              url: ""
+
+  # Accomplishments
+  accomplishments:
+    enable: true
+    # title: "Custom Name"
+    items:
+	  - title: "Courses"
+        organizations:
+          - name: ""
+            url: ""
+            date: ""
+            content: |-
+			
+		  - name: ""
+            url: ""
+            date: ""
+            content: |-
+			
+			resources:
+            - name: ""
+              icon: ""
+              url: ""
+			  
+			- name: ""
+              icon: ""
+              url: 
+			  
+			- name: ""
+              icon: ""
+              url: ""
+
+	  - title: "Honors and Awards"
+        organizations:
+          - name: ""
+            url: ""
+            date: ""
+            content: |-
+			
+		  - name: ""
+            url: ""
+            date: ""
+            content: |-
+			
+			resources:
+            - name: ""
+              icon: ""
+              url: ""
+			  
+			- name: ""
+              icon: ""
+              url: 
+			  
+			- name: ""
+              icon: ""
+              url: ""
+
+	  - title: "Organizations"
+        organizations:
+          - name: ""
+            url: ""
+            date: ""
+            content: |-
+			
+		  - name: ""
+            url: ""
+            date: ""
+            content: |-
+			
+			resources:
+            - name: ""
+              icon: ""
+              url: ""
+			  
+			- name: ""
+              icon: ""
+              url: 
+			  
+			- name: ""
+              icon: ""
+              url: ""
+
+	  - title: "Volunteering"
+        organizations:
+          - name: ""
+            url: ""
+            date: ""
+            content: |-
+			
+		  - name: ""
+            url: ""
+            date: ""
+            content: |-
+			
+			resources:
+            - name: ""
+              icon: ""
+              url: ""
+			  
+			- name: ""
+              icon: ""
+              url: 
+			  
+			- name: ""
+              icon: ""
+              url: ""

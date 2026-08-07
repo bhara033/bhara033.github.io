@@ -1,7 +1,7 @@
 {{ if .Site.Params.accomplishments.enable | default false }}
 {{- $accomplishments := .Site.Language.Params.accomplishments | default .Site.Params.accomplishments -}}
 
-<section id="education" class="py-5">  <!-- changed id="accomplishments" to id="education" to match section styling-->
+<section id="accomplishments" class="py-5">  <!-- changed id="accomplishments" to id="education" to match section styling-->
     <div class="container">
 
         <h3 class="text-center">
@@ -83,7 +83,7 @@
 
 
                                 <!-- Description -->
-                                <div class="py-1 education-content">
+                                <div class="py-1 accomplishments-content">
                                     {{ .content | markdownify }} <!-- can use either markdownify or plainify -->
                                 </div>
 

@@ -442,8 +442,11 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+    
       - title: "Courses"
+      
         organizations:
+        
           - name: "Associated with Oak Ridge National Laboratory"
             url: "https://www.ornl.gov/"
             date: "May 2024 - Aug 2024"
@@ -455,7 +458,9 @@ params:
               - Online at American Industrial Hygiene Association
 
       - title: "Honors and Awards"
+      
         organizations:
+        
           - name: "Associated with Auburn University"
             url: "https://www.auburn.edu/"
             date: "Jan 2020 - Aug 2025"
@@ -468,9 +473,28 @@ params:
               
               **Global Electronics Association (formerly known as Institute of Printed Circuits)**
               - 2022
+              
+            resources:
+              - name: "Auburn24"
+                icon: fa-globe
+                url: "https://eng.auburn.edu/news/2024/08/six-ise-doctoral-students-awarded-assp-foundation-scholarships"
+              - name: "ASSP24"
+                icon: fa-globe
+                url: "https://foundation.assp.org/scholarship-and-grants-recipients/2024/"
+              - name: "NSC23"
+                icon: fa-globe
+                url: "https://www.safetyandhealthmagazine.com/24673-nsc-announces-scholarship-recipients/"
+              - name: "ASSP22"
+                icon: fa-globe
+                url: "https://foundation.assp.org/scholarship-and-grants-recipients/2022/"
+              - name: "GEA22"
+                icon: fa-globe
+                url: "https://www.electronicsfoundation.org/2022-scholarship-winners"
         
       - title: "Organizations"
+      
         organizations:
+        
           - name: "Associated with Auburn University"
             url: "https://www.auburn.edu/"
             date: "Nov 2020 - Aug 2024"
@@ -484,6 +508,26 @@ params:
               **Human Factors and Ergonomics Society (HFES) Student Chapter**
               - Communications Director; Nov 2020 - Aug 2024
 
+            resources:
+              - name: "WISE25"
+                icon: fa-globe
+                url: "https://www.linkedin.com/posts/ashleylathamgill_wise-assp-safetyprofessionals-activity-7374559486629302272-Vsyu"
+              - name: "ASSP23"
+                icon: fa-globe
+                url: "https://www.linkedin.com/posts/bharadwajss_a-big-thanks-to-rausch-pausch-lp-aka-activity-7125547897424662529-y-Fq"
+              - name: "AUB23"
+                icon: fa-globe
+                url: "https://www.linkedin.com/posts/auburn-ise_auburn-eng"
+              - name: "WISE23"
+                icon: fa-globe
+                url: "https://www.linkedin.com/feed/update/urn:li:activity:7120877869655891968"
+              - name: "HFES23"
+                icon: fa-globe
+                url: "https://eng.auburn.edu/news/2023/12/auburn-hfes-earns-gold-student-chapter-award.html"
+              - name: "HFES22"
+                icon: fa-globe
+                url: "https://www.linkedin.com/posts/bharadwajss_hfes-wareagle-activity-6921494545004130305-YuPK"
+
           - name: "Associated with University of Minnesota - Twin Cities"
             url: "https://twin-cities.umn.edu/"
             date: "Jan 2016 - Jan 2017"
@@ -495,49 +539,18 @@ params:
               **International Student and Scholar Services (ISSS) Cross-Cultural Discussion Group (CCDG)**
               - General Member; Aug 2016 - Dec 2016
 
-        resources:
-          - name: "Auburn24"
-            icon: fa-globe
-            url: "https://eng.auburn.edu/news/2024/08/six-ise-doctoral-students-awarded-assp-foundation-scholarships"
-          - name: "ASSP24"
-            icon: fa-globe
-            url: "https://foundation.assp.org/scholarship-and-grants-recipients/2024/"
-          - name: "NSC23"
-            icon: fa-globe
-            url: "https://www.safetyandhealthmagazine.com/24673-nsc-announces-scholarship-recipients/"
-          - name: "ASSP22"
-            icon: fa-globe
-            url: "https://foundation.assp.org/scholarship-and-grants-recipients/2022/"
-          - name: "GEA22"
-            icon: fa-globe
-            url: "https://www.electronicsfoundation.org/2022-scholarship-winners"
-          - name: "WISE25"
-            icon: fa-globe
-            url: "https://www.linkedin.com/posts/ashleylathamgill_wise-assp-safetyprofessionals-activity-7374559486629302272-Vsyu"
-          - name: "ASSP23"
-            icon: fa-globe
-            url: "https://www.linkedin.com/posts/bharadwajss_a-big-thanks-to-rausch-pausch-lp-aka-activity-7125547897424662529-y-Fq"
-          - name: "AUB23"
-            icon: fa-globe
-            url: "https://www.linkedin.com/posts/auburn-ise_auburn-eng"
-          - name: "WISE23"
-            icon: fa-globe
-            url: "https://www.linkedin.com/feed/update/urn:li:activity:7120877869655891968"
-          - name: "HFES23"
-            icon: fa-globe
-            url: "https://eng.auburn.edu/news/2023/12/auburn-hfes-earns-gold-student-chapter-award.html"
-          - name: "HFES22"
-            icon: fa-globe
-            url: "https://www.linkedin.com/posts/bharadwajss_hfes-wareagle-activity-6921494545004130305-YuPK"
-          - name: "ISA16"
-            icon: fa-globe
-            url: "https://www.facebook.com/photo/?fbid=922692447830154"
-          - name: "ISSS16"
-            icon: fa-camera
-            url: "https://drive.google.com/file/d/1FLhLV5mNBha4D101znADr5gbsm30o-WQ/view?usp=drive_link"
+            resources:
+              - name: "ISA16"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/1qLq6YPeWMW-z2QMZul0-CH2dXkHfROd8/view?usp=drive_link"
+              - name: "ISSS16"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/1FLhLV5mNBha4D101znADr5gbsm30o-WQ/view?usp=drive_link"
 
       - title: "Volunteering"
+      
         organizations:
+        
           - name: "National Multiple Sclerosis Society"
             url: "https://www.nationalmssociety.org/"
             date: "Apr 2019 - Present"
@@ -559,6 +572,23 @@ params:
               **Bike MS 150: Minnesota Ride**
               - 2019
                 
+            resources:
+              - name: "BikeMS25-2"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/1VaVD8PLnxJSqESzc2xgtN7tAVLdwpqdr/view?usp=drive_link"
+              - name: "BikeMS25"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/14vqPCg110qeHwG9VFQ0uanW88aP_yoht/view?usp=drive_link"
+              - name: "BikeMS22"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/1DBkAx23V3fnw72KALoRvci_8gSj9DukA/view?usp=drive_link"
+              - name: "BikeMS21"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/1Ib1j4wFCOg48GDQl3e4QAvrBxrrk42Bk/view?usp=drive_link"
+              - name: "BikeMS19"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/1V_wmVJOs3yOdCR8WuEe5dR7EsXwQI3kh/view?usp=drive_link"
+                
           - name: "Special Olympics"
             url: "https://www.specialolympics.org/"
             date: "Apr 2016 - Present"
@@ -577,34 +607,19 @@ params:
               **Minneapolis Polar Plunge**
               - 2016
               
-        resources:
-            - name: "BikeMS25-2"
-              icon: fa-camera
-              url: "https://drive.google.com/file/d/1VaVD8PLnxJSqESzc2xgtN7tAVLdwpqdr/view?usp=drive_link"
-            - name: "BikeMS25"
-              icon: fa-camera
-              url: "https://drive.google.com/file/d/14vqPCg110qeHwG9VFQ0uanW88aP_yoht/view?usp=drive_link"
-            - name: "BikeMS22"
-              icon: fa-camera
-              url: "https://drive.google.com/file/d/1DBkAx23V3fnw72KALoRvci_8gSj9DukA/view?usp=drive_link"
-            - name: "BikeMS21"
-              icon: fa-camera
-              url: "https://drive.google.com/file/d/1Ib1j4wFCOg48GDQl3e4QAvrBxrrk42Bk/view?usp=drive_link"
-            - name: "BikeMS19"
-              icon: fa-camera
-              url: "https://drive.google.com/file/d/1V_wmVJOs3yOdCR8WuEe5dR7EsXwQI3kh/view?usp=drive_link"
-            - name: "Plunge26"
-              icon: fa-camera
-              url: "https://drive.google.com/file/d/1IBrV0SN0frtk2bQXqc4fczSL8WuPloe7/view?usp=drive_link"
-            - name: "Plunge22"
-              icon: fa-camera
-              url: "https://drive.google.com/file/d/19_zY5OlANDuN12ZeFBXDNALT2doP0e1x/view?usp=drive_link"
-            - name: "Plunge17"
-              icon: fa-camera
-              url: "https://drive.google.com/file/d/1xF9ETNnk-8epoIZXNA2nf-1aX_tjYEle/view?usp=drive_link"
-            - name: "Plunge16"
-              icon: fa-camera
-              url: "https://drive.google.com/file/d/1hlAm8xaX3a54a4yJVPwERQiiDoa3-cdK/view?usp=drive_link"
+            resources:
+              - name: "Plunge26"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/1IBrV0SN0frtk2bQXqc4fczSL8WuPloe7/view?usp=drive_link"
+              - name: "Plunge22"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/19_zY5OlANDuN12ZeFBXDNALT2doP0e1x/view?usp=drive_link"
+              - name: "Plunge17"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/1xF9ETNnk-8epoIZXNA2nf-1aX_tjYEle/view?usp=drive_link"
+              - name: "Plunge16"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/1hlAm8xaX3a54a4yJVPwERQiiDoa3-cdK/view?usp=drive_link"
 
   #Contact
   contact:
