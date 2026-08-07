@@ -1,139 +1,147 @@
 {{ if .Site.Params.experience.enable | default false }}
 {{- $experience := .Site.Language.Params.experience | default .Site.Params.experience -}}
 
-<section id="experience" class="py-5">  <!-- changed id="accomplishments" to id="education" to match section styling-->
-    <div class="container">
-		
-        <h3 class="text-center">
-            {{ $experience.title | default .Site.Params.experience.title | default (i18n "experience") }}
-        </h3>
+<div class="row justify-content-center py-5">
 
-        <div class="row justify-content-center py-5">
+    <!-- Experience Tabs -->
+    <ul class="nav nav-pills justify-content-center flex-wrap mb-2 bg-transparent secondary-font"
+        id="experience-pills-tab"
+        role="tablist">
 
-            {{ range $index, $element := $experience.items | default .Site.Params.experience.items }}
+        {{ range $index, $element := $experience.items | default .Site.Params.experience.items }}
 
-            {{ $company := .company }}
-            {{ $companyUrl := .companyUrl }}
+        <li class="nav-item mx-1 bg-transparent" role="presentation">
+            <div
+                class="nav-link {{ if eq $index 0 }}active{{ end }} bg-transparent"
+                aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+                role="tab"
+                data-bs-toggle="pill"
+                id="experience-{{ $index }}-tab"
+                data-bs-target="#experience-{{ $index }}"
+                aria-controls="experience-{{ $index }}"
+            >
+                {{ .title }}
+            </div>
+        </li>
 
-            <div class="col-md-9 mb-4">
+        {{ end }}
 
-                    <div class="card shadow-sm h-100 bg-white">
-                    <!-- removed lines after <div class="card shadow-sm h-100" style=" 
-                        background-color: #f8f9fa !important;
-                        border: 1px solid #6c757d !important;
-                        border-radius: 1rem !important;
-                        overflow: hidden;"> -->
+    </ul>
 
-                    <div class="card-body">
 
-                        <!-- Company -->
-                        <h4 class="card-title mb-4">
-                            {{ if $companyUrl }}
-                                <a href="{{ $companyUrl }}" target="_blank">
-                                    {{ $company }}
-                                </a>
-                            {{ else }}
-                                {{ $company }}
-                            {{ end }}
-                        </h4>
+    <!-- Experience Tab Content -->
+    <div class="tab-content pb-3 bg-transparent secondary-font"
+         id="experience-pills-tabContent">
 
-                        <!-- Jobs within company -->
-                        {{ range $jobIdx, $job := .jobs }}
+        {{ range $index, $element := $experience.items | default .Site.Params.experience.items }}
 
-                            {{ if gt $jobIdx 0 }}
-                            <hr>
-                            {{ end }}
+        <div
+            class="tab-pane fade bg-transparent {{ if eq $index 0 }}show active{{ end }}"
+            role="tabpanel"
+            id="experience-{{ $index }}"
+            aria-labelledby="experience-{{ $index }}-tab"
+        >
 
-                            <div class="mb-3">
+            <div class="col-12 p-0">
 
-                                <div class="d-flex justify-content-between align-items-start flex-wrap">
+                <div class="row align-items-center justify-content-center m-1 mb-4">
 
-                                    <div>
+                    {{ if $experience.index }}
+                    <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
+                        <div class="py-2">
+                            <span class="index shadow-lg">
+                                {{ add $index 1 }}
+                            </span>
+                        </div>
+                    </div>
+                    {{ end }}
 
-                                        <h5 class="mb-1">
 
-                                            {{ $job.name }}
+                    <div class="col-md-9">
 
-                                            {{ if $job.info.content }}
+                        <div class="card shadow-sm h-100 bg-white">
+                            <div class="card-body">
 
-                                                <span class="ms-2">
+                                <!-- Companies -->
+                                {{ range $companyIndex, $company := .companies }}
 
-                                                    <span
-                                                        data-bs-toggle="tooltip"
-                                                        data-bs-placement="top"
-                                                        data-bs-original-title="{{ $job.info.content }}">
+                                <div class="border-top pt-3 mt-3">
 
-                                                        <i class="fas fa-info-circle fa-xs"></i>
+                                    <!-- Company -->
+                                    {{ if $company.companyUrl }}
+                                    <a href="{{ $company.companyUrl }}" target="_blank">
+                                        <h5 class="card-title">{{ $company.company }}</h5>
+                                    </a>
+                                    {{ else }}
+                                    <h5 class="card-title">{{ $company.company }}</h5>
+                                    {{ end }}
 
-                                                    </span>
 
-                                                </span>
+                                    <!-- Jobs -->
+                                    {{ range $jobIndex, $job := $company.jobs }}
 
-                                            {{ end }}
+                                    <div class="py-2">
 
-                                        </h5>
+                                        <div class="float-end">
+                                            <small>{{ $job.date }}</small>
+                                        </div>
+
+                                        <h6>{{ $job.name }}</h6>
+
+                                        <div class="py-1 accomplishment-content">
+                                            {{ $job.content | markdownify }}
+                                        </div>
 
                                     </div>
-
-                                    <div class="text-muted">
-
-                                        <small>{{ $job.date }}</small>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="pt-2">
-
-                                    {{ $job.content | markdownify }} <!-- can use either markdownify or plainify -->
-
-                                </div>
-
-                                {{ if $job.featuredItems }}
-
-                                <div class="featuredLink list-inline mt-3">
-
-                                    {{ range $job.featuredItems.fontAwesomeIcons }}
-
-                                    <span class="list-inline-item">
-
-                                        <a
-                                            href="{{ .url }}"
-                                            target="_blank"
-
-                                            {{ if .tooltip }}
-                                            data-bs-toggle="tooltip"
-                                            data-bs-placement="top"
-                                            data-bs-original-title="{{ .tooltip }}"
-                                            {{ end }}>
-
-                                            <i class="{{ .icon }}"></i>
-
-                                        </a>
-
-                                    </span>
 
                                     {{ end }}
 
-                                    {{ range $job.featuredItems.customIcons }}
 
-                                    <span class="list-inline-item">
+                                    <!-- Resources -->
+                                    {{ if $company.resources }}
 
-                                        <a
-                                            href="{{ .url }}"
-                                            target="_blank"
+                                    <div class="py-2">
 
-                                            {{ if .tooltip }}
-                                            data-bs-toggle="tooltip"
-                                            data-bs-placement="top"
-                                            data-bs-original-title="{{ .tooltip }}"
-                                            {{ end }}>
+                                        <button
+                                            class="btn btn-outline-secondary btn-sm"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#experience-resources-{{ $index }}-{{ $companyIndex }}"
+                                            aria-expanded="false"
+                                            aria-controls="experience-resources-{{ $index }}-{{ $companyIndex }}"
+                                        >
 
-                                            <img src="{{ .icon }}">
+                                            Resources ({{ len $company.resources }})
 
-                                        </a>
+                                        </button>
 
-                                    </span>
+
+                                        <div
+                                            class="collapse mt-2"
+                                            id="experience-resources-{{ $index }}-{{ $companyIndex }}"
+                                        >
+
+                                            {{ range $company.resources }}
+
+                                            <div class="mb-1">
+
+                                                <a href="{{ .url }}" target="_blank">
+
+                                                    {{ if .icon }}
+                                                    <i class="fas {{ .icon }}"></i>
+                                                    {{ end }}
+
+                                                    {{ .name }}
+
+                                                </a>
+
+                                            </div>
+
+                                            {{ end }}
+
+                                        </div>
+
+                                    </div>
 
                                     {{ end }}
 
@@ -142,8 +150,7 @@
                                 {{ end }}
 
                             </div>
-
-                        {{ end }}
+                        </div>
 
                     </div>
 
@@ -151,11 +158,12 @@
 
             </div>
 
-            {{ end }}
-
         </div>
 
+        {{ end }}
+
     </div>
-</section>
+
+</div>
 
 {{ end }}

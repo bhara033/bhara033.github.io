@@ -1,3 +1,64 @@
+experience:
+  enable: true
+  # title: "Custom Name"
+
+  items:
+    - title: "decade1"
+      companies:
+
+        - company: ""
+          companyUrl: ""
+
+          jobs:
+            - name: ""
+              date: ""
+              content: |-
+                Your job description here.
+
+          resources:
+            - name: ""
+              icon: ""
+              url: ""
+
+            - name: ""
+              icon: ""
+              url: ""
+
+            - name: ""
+              icon: ""
+              url: ""
+
+        - company: ""
+          companyUrl: ""
+
+          jobs:
+            - name: ""
+              date: ""
+              content: |-
+                Your job description here.
+
+          resources:
+            - name: ""
+              icon: ""
+              url: ""
+
+    - title: "decade2"
+      companies:
+
+        - company: ""
+          companyUrl: ""
+
+          jobs:
+            - name: ""
+              date: ""
+              content: |-
+                Your job description here.
+
+          resources:
+            - name: ""
+              icon: ""
+              url: ""
+              
   # Education
   education:
     enable: true
@@ -74,6 +135,15 @@
             url: ""
             date: ""
             content: |-
+            
+            resources:
+            - name: ""
+              icon: ""
+              url: ""
+			  
+			- name: ""
+              icon: ""
+              url: ""
 			
 		  - name: ""
             url: ""
@@ -84,10 +154,6 @@
             - name: ""
               icon: ""
               url: ""
-			  
-			- name: ""
-              icon: ""
-              url: 
 			  
 			- name: ""
               icon: ""
@@ -99,45 +165,55 @@
             url: ""
             date: ""
             content: |-
-			
-		  - name: ""
-            url: ""
-            date: ""
-            content: |-
-			
-			resources:
+            
+            resources:
             - name: ""
               icon: ""
               url: ""
 			  
 			- name: ""
               icon: ""
-              url: 
+              url: ""
+			
+		    - name: ""
+              url: ""
+              date: ""
+              content: |-
+			
+			resources:
+            - name: ""
+              icon: ""
+              url: ""
 			  
 			- name: ""
               icon: ""
               url: ""
 
 	  - title: "Organizations"
-        organizations:
+        organizations:  
           - name: ""
             url: ""
             date: ""
             content: |-
-			
-		  - name: ""
-            url: ""
-            date: ""
-            content: |-
-			
-			resources:
+            
+            resources:
             - name: ""
               icon: ""
               url: ""
 			  
 			- name: ""
               icon: ""
-              url: 
+              url: ""
+			
+		    - name: ""
+              url: ""
+              date: ""
+              content: |-
+			
+			resources:
+            - name: ""
+              icon: ""
+              url: ""
 			  
 			- name: ""
               icon: ""
@@ -149,20 +225,25 @@
             url: ""
             date: ""
             content: |-
-			
-		  - name: ""
-            url: ""
-            date: ""
-            content: |-
-			
-			resources:
+            
+            resources:
             - name: ""
               icon: ""
               url: ""
 			  
 			- name: ""
               icon: ""
-              url: 
+              url: ""
+			
+		    - name: ""
+              url: ""
+              date: ""
+              content: |-
+			
+			resources:
+            - name: ""
+              icon: ""
+              url: ""
 			  
 			- name: ""
               icon: ""
