@@ -152,6 +152,15 @@ header .navbar.animate {
     transition: none;
 }
 
+#hero a.btn {
+    margin-top: 50px;
+    padding: 0.7rem 1.75rem;
+    border: 1px solid var(--primary-color);
+    color: var(--text-color) !important;
+    border-radius: .75rem;
+    transition: none;
+}
+
 #hero a.btn:focus {
     box-shadow: none;
 }

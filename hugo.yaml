@@ -160,10 +160,13 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+      name: Safety Resume
+      url: "https://drive.google.com/file/d/1iEDhwvXwa6-MrMCh94UaHnx0ieopMJwY/view?usp=drive_link"
+    
+    button2:
+      enable: true
+      name: Public Health Resume
+      url: "https://drive.google.com/file/d/1WPUlO_ggTz2ZcZqGYwLhH6YYnDsc6TFN/view?usp=drive_link"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
