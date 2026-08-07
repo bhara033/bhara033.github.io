@@ -161,12 +161,16 @@ params:
     button:
       enable: true
       name: Safety Resume
-      url: "https://drive.google.com/file/d/1iEDhwvXwa6-MrMCh94UaHnx0ieopMJwY/view?usp=drive_link"
-    
+      url: files/Bharadwaj_Suhas_Sudhir_EHS_Resume.pdf
+      download: true
+      newPage: false
+      
     button2:
       enable: true
       name: Public Health Resume
-      url: "https://drive.google.com/file/d/1WPUlO_ggTz2ZcZqGYwLhH6YYnDsc6TFN/view?usp=drive_link"
+      url: files/Bharadwaj_Suhas_Sudhir_Public_Health_Resume.pdf
+      download: true
+      newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin

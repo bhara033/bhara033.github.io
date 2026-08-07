@@ -20,13 +20,13 @@
                     <div class="col-auto h-100">
                         {{ if .Site.Params.hero.button.enable }}
                         <a href="{{ .Site.Params.hero.button.url }}" class="btn" {{ cond .Site.Params.hero.button.download "download" "" }}
-			  {{ if .Site.Params.hero.button.newPage | default true }}
+			              {{ if .Site.Params.hero.button.newPage | default true }}
                           target="_blank"
                           {{ end }}>
                             {{ $hero.button.name | default .Site.Params.hero.button.name }}
                         </a>
 						<a href="{{ .Site.Params.hero.button2.url }}" class="btn" {{ cond .Site.Params.hero.button.download "download" "" }}
-			  {{ if .Site.Params.hero.button.newPage | default true }}
+			              {{ if .Site.Params.hero.button.newPage | default true }}
                           target="_blank"
                           {{ end }}>
                             {{ $hero.button2.name | default .Site.Params.hero.button.name }}
