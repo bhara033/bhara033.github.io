@@ -132,10 +132,11 @@ header .navbar.animate {
     padding: 0.7rem;
     border: 1px solid var(--primary-color);
     transition: none;
+	overflow: hidden;
 }
 
 #hero a.btn.social-icon img {
-    width: 1em;
+	width: 1em;
 }
 
 #hero a.btn.social-icon:hover {

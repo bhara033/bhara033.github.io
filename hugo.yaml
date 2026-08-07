@@ -173,7 +173,8 @@ params:
         - icon: fab fa-facebook
           url: https://www.facebook.com/bhara033/
       customIcons:
-        - icon: /google-scholar.svg
+        - iconLight: /google-scholar-light.svg
+          iconDark: /google-scholar-dark.svg
           url: "https://scholar.google.com/citations?user=RyS9vJwAAAAJ&hl=en"
 
   # About
