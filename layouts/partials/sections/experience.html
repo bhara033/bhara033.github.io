@@ -1,7 +1,9 @@
 {{ if .Site.Params.experience.enable | default false }}
 {{- $experience := .Site.Language.Params.experience | default .Site.Params.experience -}}
 
-<div class="row justify-content-center py-5">
+<section id="experience" class="py-5">
+    <div class="container">
+        <h3 class="text-center">
 	
 	<h3 class="text-center">
             {{ $experience.title | default .Site.Params.experience.title | default (i18n "experience") }}
@@ -65,7 +67,7 @@
 
                     <div class="col-md-9">
 
-                        <div class="card shadow-sm h-100 bg-white">
+                        <div class="card shadow-sm h-100">
                             <div class="card-body">
                             
                             
@@ -203,5 +205,8 @@
     </div>
 
 </div>
+
+    </div>
+</section>
 
 {{ end }}
