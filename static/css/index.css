@@ -415,9 +415,13 @@ header .navbar.animate {
     opacity: 0.5;
 }
 
-#education .card .card-body > a h6:hover::after, #education .card .card-body > a h6:focus::after, #education .card .card-body > a h6:active::after {
+/*
+#education .card .card-body > a h6:hover::after,
+#education .card .card-body > a h6:focus::after,
+#education .card .card-body > a h6:active::after {
     width: 100%;
 }
+*/
 
 #education .card .card-body a.btn {
     opacity: 0.9;
@@ -430,6 +434,20 @@ header .navbar.animate {
 
 #education .card .card-body a.btn:hover {
     opacity: 0.8;
+}
+
+#education .card .card-body > a h6 {
+    display: inline-block;
+    color: #0d6efd !important;
+    text-decoration: underline;
+}
+
+.dark #education .card .card-body > a h6 {
+    color: #0d6efd !important;
+}
+
+#education .card .card-body > a h6:hover {
+    color: #0066cc !important;
 }
 
 /* Accomplishments */
