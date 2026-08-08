@@ -541,7 +541,7 @@ params:
                 url: "https://www.linkedin.com/posts/bharadwajss_a-big-thanks-to-rausch-pausch-lp-aka-activity-7125547897424662529-y-Fq"
               - name: "AUB23"
                 icon: fa-globe
-                url: "https://www.linkedin.com/posts/auburn-ise_auburn-eng"
+                url: "https://www.linkedin.com/posts/auburn-ise_auburn-engineering-studentsuccess-activity-7170898480457064448-tAym?utm_source=share&utm_medium=member_desktop&rcm=ACoAABs97tIBbYEHsZVjz10-K17YZmA4ekgxnY4"
               - name: "WISE23"
                 icon: fa-globe
                 url: "https://www.linkedin.com/feed/update/urn:li:activity:7120877869655891968"
@@ -566,32 +566,20 @@ params:
             resources:
               - name: "ISA16-1"
                 icon: fa-camera
-                url: "https://drive.google.com/file/d/1qLq6YPeWMW-z2QMZul0-CH2dXkHfROd8/view?usp=drive_link"
+                url: "https://drive.google.com/file/d/1IDkU5E9fXyBEaqKLNg_bdwSNkIFAqvio/view?usp=drive_link"
               - name: "ISA16-2"
                 icon: fa-camera
-                url: "https://drive.google.com/file/d/1IDkU5E9fXyBEaqKLNg_bdwSNkIFAqvio/view?usp=drive_link"
+                url: "https://drive.google.com/file/d/18JWsqc6oBrD3n6kC9bJikAHYf0OpkBMA/view?usp=drive_link"
               - name: "ISA16-3"
                 icon: fa-camera
-                url: "https://drive.google.com/file/d/1PkocUvwzXedImzENou_vLqJ0Z91VTB5b/view?usp=drive_link"
+                url: "https://drive.google.com/file/d/1aqe8YPcQfKMQRwl93vbNx3H1FsKiK3a4/view?usp=drive_link"
               - name: "ISA16-4"
                 icon: fa-camera
-                url: "https://drive.google.com/file/d/18JWsqc6oBrD3n6kC9bJikAHYf0OpkBMA/view?usp=drive_link"
+                url: "https://drive.google.com/file/d/13k2pbLLK77TNOI7QWTvF1imQLtUGj4HU/view?usp=drive_link"
               - name: "ISA16-5"
                 icon: fa-camera
-                url: "https://drive.google.com/file/d/1SbhZHD95s9OSBdCBuCR_TOmGak05-boz/view?usp=drive_link"
-              - name: "ISA16-6"
-                icon: fa-camera
-                url: "https://drive.google.com/file/d/1Wpu8Qvvb5br_E1jfLCvkQP3fJcMQMAVX/view?usp=drive_link"
-              - name: "ISA16-7"
-                icon: fa-camera
                 url: "https://drive.google.com/file/d/1hKGWQtNGfadkK7v3uLp9nfnB-DH8VDTE/view?usp=drive_link"
-              - name: "ISA16-8"
-                icon: fa-camera
-                url: "https://drive.google.com/file/d/13k2pbLLK77TNOI7QWTvF1imQLtUGj4HU/view?usp=drive_link"
-              - name: "ISA16-9"
-                icon: fa-camera
-                url: "https://drive.google.com/file/d/1aqe8YPcQfKMQRwl93vbNx3H1FsKiK3a4/view?usp=drive_link"
-              - name: "ISA16-10"
+              - name: "ISA16-6"
                 icon: fa-camera
                 url: "https://drive.google.com/file/d/1Ud6tChNM_T9G73ktzIxv-lXiBPrKJaHt/view?usp=drive_link"
 
@@ -635,7 +623,7 @@ params:
                 url: "https://drive.google.com/file/d/1Ib1j4wFCOg48GDQl3e4QAvrBxrrk42Bk/view?usp=drive_link"
               - name: "BikeMS19"
                 icon: fa-camera
-                url: "https://drive.google.com/file/d/1V_wmVJOs3yOdCR8WuEe5dR7EsXwQI3kh/view?usp=drive_link"
+                url: "https://drive.google.com/file/d/1wR8pOY0yodvEYBDVo4URMywedt2NrkBo/view?usp=drive_link"
                 
           - name: "Special Olympics"
             url: "https://www.specialolympics.org/"
@@ -659,15 +647,18 @@ params:
               - name: "Plunge26"
                 icon: fa-camera
                 url: "https://drive.google.com/file/d/1IBrV0SN0frtk2bQXqc4fczSL8WuPloe7/view?usp=drive_link"
+              - name: "Plunge24"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/11gwaAO_YTWqWW3Su1lLzRBZkTzHLKBEY/view?usp=drive_link"
+              - name: "Plunge23"
+                icon: fa-camera
+                url: "https://drive.google.com/file/d/1BNH2cIjwxCZ3Mlv2ikwQ1SVu9OkhYXOq/view?usp=drive_link"
               - name: "Plunge22"
                 icon: fa-camera
-                url: "https://drive.google.com/file/d/19_zY5OlANDuN12ZeFBXDNALT2doP0e1x/view?usp=drive_link"
-              - name: "Plunge17"
+                url: "https://drive.google.com/file/d/1nQxAnveiX7C5GMOnvJC1hmaPVIQ2WP7_/view?usp=drive_link"
+              - name: "Plunge21"
                 icon: fa-camera
-                url: "https://drive.google.com/file/d/1xF9ETNnk-8epoIZXNA2nf-1aX_tjYEle/view?usp=drive_link"
-              - name: "Plunge16"
-                icon: fa-camera
-                url: "https://drive.google.com/file/d/1hlAm8xaX3a54a4yJVPwERQiiDoa3-cdK/view?usp=drive_link"
+                url: "https://drive.google.com/file/d/1ShRe5kbdd2eS3ETbjMlTNdTiG49Ydsje/view?usp=drive_link"
 
   #Contact
   contact:
