@@ -213,7 +213,7 @@ header .navbar.animate {
     gap: 0px 10px;
     padding: 0px;
     margin: 20px 0px 0px;
-    overflow: visible;
+    overflow: hidden;
     list-style: none;
 }
 
