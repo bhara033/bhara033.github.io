@@ -170,7 +170,7 @@ params:
     button2:
       enable: true
       name: Public Health Resume
-      url: files/Bharadwaj_Suhas_Sudhir_Public_Health_Resume.pdf
+      url: files/Bharadwaj_Suhas_Sudhir_PH_Resume.pdf
       download: true
       newPage: false
     socialLinks:
