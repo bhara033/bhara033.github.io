@@ -62,6 +62,14 @@ footer .card > .card-header .card-img-top {
     background-color: transparent !important;
 }
 
+#footer .google-scholar-icon {
+    content: url("/google-scholar-light.svg");
+}
+
+.dark #footer .google-scholar-icon {
+    content: url("/google-scholar-dark.svg");
+}
+
 footer .social-icon svg,
 footer .social-icon img {
     overflow: hidden;
