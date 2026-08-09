@@ -214,12 +214,9 @@ header .navbar.animate {
     padding: 0px;
     margin: 20px 0px 0px;
     overflow: hidden;
-    list-style: none;
-}
-
-#about li {
-    min-width: 0;
+	min-width: 0;
     overflow-wrap: anywhere;
+    list-style: none;
 }
 
 #about ul li {
