@@ -217,6 +217,10 @@ header .navbar.animate {
     list-style: none;
 }
 
+#about li {
+    min-width: 0;
+}
+
 #about ul li {
     position: relative;
     margin-bottom: 10px;
