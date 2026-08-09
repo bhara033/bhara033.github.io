@@ -219,6 +219,7 @@ header .navbar.animate {
 
 #about li {
     min-width: 0;
+    overflow-wrap: anywhere;
 }
 
 #about ul li {
