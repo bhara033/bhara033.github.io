@@ -743,6 +743,461 @@ At the conclusion of Phase 2:
 * HTML templates are cleaner, more maintainable, and easier to extend.
 * The project now has a stronger architectural foundation for future customization, including additional sections, theme enhancements, and responsive design improvements.
 
+
+---
+
+# **Phase 3 – Portfolio UI Refinement, Social Icons, Blog, Gallery, and Multilingual Routing**
+
+## Objective
+
+Phase 3 focused on refining the visual consistency of the portfolio and adding functional content features after the main Hugo sections had been standardized.
+
+The major goals were:
+
+* Make Experience and Accomplishments visually consistent with Education by using card-based layouts instead of list-style layouts.
+* Preserve the original Hugo Profile theme styling while modifying the section HTML.
+* Fix minor social-media icon and light/dark-mode display issues.
+* Improve link styling consistency across sections.
+* Build a functioning image gallery with descriptions.
+* Add a functioning blog section.
+* Configure multilingual content and custom language paths.
+* Resolve Hugo URL/path issues caused by multilingual routing and relative versus absolute URLs.
+* Improve responsive behavior and verify changes through browser developer tools and repeated local testing.
+
+---
+
+## Step 1 – Convert Experience and Accomplishments to Card-Based Layouts
+
+Education was used as the visual reference because it already had the desired card-based presentation.
+
+Experience and Accomplishments were adjusted so that their content could be displayed using a similar Bootstrap card structure rather than relying on the original list-oriented presentation.
+
+### Experience
+
+The Experience section was rebuilt around the same general visual model as Education while preserving Experience-specific features such as:
+
+* Company grouping
+* Multiple positions within one company
+* Job metadata
+* Links and icons
+* Existing Hugo Profile data structure
+
+During testing, an important layout issue was identified: the Experience card appeared wider than the Education and Accomplishments cards even when similar Bootstrap column widths were being used.
+
+The cause was structural rather than simply a `col-md-*` setting. The Experience partial did not contain the same container hierarchy used by the other sections.
+
+The fix was to restore the appropriate container structure instead of changing the global CSS.
+
+### Accomplishments
+
+The Accomplishments section was also aligned with the Education-style card presentation.
+
+The goal was not to make every section identical, but to establish a common visual language:
+
+```text
+Education       → Card
+Experience      → Card
+Accomplishments → Card
+```
+
+Section-specific content and functionality were retained.
+
+---
+
+## Step 2 – Preserve the Existing `index.css` Design
+
+A key requirement during the Phase 3 changes was to avoid unnecessarily rewriting the existing theme CSS.
+
+The Hugo Profile theme already contained styling in:
+
+```text
+assets/css/index.css
+```
+
+Important existing styling included CSS variables such as:
+
+```css
+--primary-color
+--secondary-color
+--text-secondary-color
+--text-link-color
+```
+
+and card styling such as borders, rounded corners, shadows, spacing, and dark-mode backgrounds.
+
+The HTML partials were therefore adjusted to work with the existing stylesheet rather than replacing the visual system with large amounts of new inline CSS.
+
+This helped preserve the original Hugo Profile appearance while allowing the structure of the sections to be customized.
+
+---
+
+## Step 3 – Fix Education Link Styling
+
+The Education section contained a small visual inconsistency in the way the school/resource URL was displayed.
+
+Other portfolio links used a blue, underlined appearance and a darker blue hover state, while the Education link initially behaved differently.
+
+The final styling used the existing visual convention, including:
+
+```css
+#education .card .card-body > a h6 {
+    display: inline-block;
+    color: #007bff !important;
+    text-decoration: underline;
+}
+
+.dark #education .card .card-body > a h6 {
+    color: #007bff !important;
+}
+```
+
+The hover color observed during browser inspection was:
+
+```text
+#0056b3
+```
+
+Browser developer tools were used to identify the actual rendered colors and pseudo-element behavior rather than guessing which CSS rule controlled the appearance.
+
+This also revealed that the Education link had an existing `::after` hover rule that affected the underline animation.
+
+---
+
+## Step 4 – Fix Social Media and Dark-Mode Icon Issues
+
+Several minor issues were found with social-media icons when switching between light and dark modes, particularly on mobile.
+
+The debugging process involved inspecting the rendered HTML and the `<body>` class.
+
+Examples observed during testing included:
+
+```html
+<body class="light">
+```
+
+and temporarily:
+
+```html
+<body class="light dark">
+```
+
+This helped identify that the problem was related to how the theme's light/dark state was being applied rather than simply being an incorrect image file.
+
+An important lesson from this work was to avoid using CSS such as:
+
+```css
+content: url(...);
+```
+
+as a general replacement mechanism for image elements.
+
+Instead, the actual HTML/image elements and the theme's light/dark state should be allowed to control which asset is displayed.
+
+The issue was verified on the rendered page rather than relying only on the source template.
+
+---
+
+## Step 5 – Build a Functional Image Gallery
+
+A dedicated Hugo gallery layout was implemented to support image collections.
+
+The gallery uses a structure similar to:
+
+```text
+content/
+└── gallery/
+    └── ...
+```
+
+and a gallery layout that renders each image in a Bootstrap card.
+
+The gallery supports:
+
+* Multiple images
+* Image viewer/zoom functionality
+* Optional image descriptions
+* Responsive image sizing
+* Dark-mode-compatible description text
+
+The image template was extended so that a description could appear underneath an image:
+
+```html
+{{ if .description }}
+<div class="gallery-description text-center">
+    {{ .description }}
+</div>
+{{ end }}
+```
+
+The associated CSS was kept separate from the HTML:
+
+```css
+.viewer-enabled-image {
+    cursor: zoom-in;
+}
+
+.gallery-description {
+    color: inherit;
+    padding: 8px 4px;
+}
+```
+
+Using `color: inherit` allows the description to follow the active light/dark theme.
+
+---
+
+## Step 6 – Correct Gallery Markdown and YAML Structure
+
+While creating gallery entries, a YAML parsing error occurred:
+
+```text
+found character that cannot start any token
+```
+
+The problem was caused by gallery image data being placed in the wrong part of the Markdown/front-matter structure.
+
+The gallery image definitions must belong to the YAML front matter rather than being treated as ordinary Markdown content.
+
+The general structure is:
+
+```yaml
+---
+title: "Gallery"
+date: 2026-01-01
+description: "Gallery description"
+layout: gallery
+
+galleryImages:
+  - src: "/files/image1.jpg"
+    description: "Description of image 1"
+  - src: "/files/image2.jpg"
+    description: "Description of image 2"
+
+viewer: true
+---
+```
+
+This reinforced the Phase 1 lesson that Hugo configuration and content are highly dependent on correct YAML structure and indentation.
+
+---
+
+## Step 7 – Add a Functional Blog
+
+A blog section was added to the portfolio so that posts could be created and rendered through Hugo rather than being static HTML.
+
+The blog uses Hugo content organization and a section index page.
+
+The initial blog index Markdown included content similar to:
+
+```markdown
+---
+title: "Blogs"
+---
+```
+
+The blog was tested locally through Hugo's development server.
+
+Testing exposed an important distinction between:
+
+* the physical content path,
+* the generated Hugo URL,
+* the site's `baseURL`,
+* multilingual URL prefixes,
+* and the URL functions used inside templates.
+
+This became particularly important once multilingual routing was introduced.
+
+---
+
+## Step 8 – Multilingual Configuration and Custom Language Paths
+
+The site was expanded to support multiple languages, including:
+
+```text
+en
+es
+fr
+```
+
+Language-specific configuration files were used for translated navigation and content.
+
+The Hugo configuration included multilingual settings such as:
+
+```yaml
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+```
+
+The behavior of:
+
+```yaml
+defaultContentLanguageInSubdir: true
+```
+
+was also investigated because it changes whether the default language receives its own URL prefix.
+
+Custom language paths were explored so that the language URLs could use project-specific names rather than simply:
+
+```text
+/es/
+/fr/
+```
+
+For example:
+
+```text
+/curated/
+/complete/
+```
+
+The important lesson was that Hugo's language configuration, content directories, and generated URLs must be considered together.
+
+---
+
+## Step 9 – Debug Relative and Absolute Hugo URLs
+
+Blog and gallery testing exposed differences between:
+
+```hugo
+relURL
+```
+
+and:
+
+```hugo
+absURL
+```
+
+These functions were investigated because the site was being served under different local paths during testing.
+
+The distinction is important:
+
+* `relURL` generates a URL relative to the configured site base URL.
+* `absURL` generates a URL using the site's configured base URL.
+
+For assets and navigation, choosing the correct function depends on whether the target should be relative to the current site location or anchored to the configured site base.
+
+Testing URLs directly in the browser was used to determine whether Hugo was generating paths such as:
+
+```text
+/curated/
+```
+
+or incorrectly producing duplicated or missing path segments.
+
+---
+
+## Step 10 – Responsive Gallery and About-Section Refinement
+
+Responsive behavior was also tested on different mobile devices.
+
+The About section used a two-column `<ul>` grid:
+
+```css
+#about ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+}
+```
+
+Testing showed that long text in the right-most column could cause horizontal overflow on some mobile screen sizes.
+
+The investigation focused on the grid width and the relationship between the `<ul>` container and its `<li>` elements rather than simply adding a horizontal scrollbar.
+
+The goal was to allow the content to fit within the viewport without forcing the user to scroll horizontally.
+
+---
+
+## Step 11 – Browser Developer Tools as a Debugging Method
+
+Phase 3 relied heavily on browser developer tools to identify the actual source of visual problems.
+
+Developer tools were used to inspect:
+
+* Rendered HTML
+* `<body>` classes
+* Computed CSS
+* CSS variables
+* Link colors
+* Hover colors
+* Pseudo-elements
+* Bootstrap container and column widths
+* Image paths
+* Generated URLs
+
+For example, the actual hover blue for links was identified as:
+
+```text
+#0056b3
+```
+
+rather than relying on assumptions about the theme's CSS.
+
+This proved more reliable than repeatedly changing unrelated CSS rules.
+
+---
+
+## Phase 3 Troubleshooting Lessons
+
+### 1. HTML structure can affect Bootstrap width
+
+A `col-md-9` does not guarantee that two sections will have the same visible width.
+
+The surrounding `.container`, `.row`, and other wrapper elements affect the final layout.
+
+### 2. Preserve existing theme CSS when possible
+
+When a theme already provides a complete visual system, modifying the HTML structure while reusing the existing CSS is safer than recreating the styling from scratch.
+
+### 3. Inspect computed styles instead of guessing
+
+Browser developer tools provide the actual CSS rule, variable, color, or pseudo-element affecting an element.
+
+### 4. Hugo URLs depend on configuration
+
+`baseURL`, language configuration, content paths, and URL helper functions all affect the final generated URL.
+
+### 5. YAML structure remains critical
+
+Gallery data and other Hugo configuration must be placed in the correct YAML structure. A visually correct Markdown file can still fail to build if the YAML hierarchy is invalid.
+
+### 6. Browser caching can hide successful changes
+
+When Hugo's live reload or browser caching appears to leave an old version visible, a hard refresh such as:
+
+```text
+Ctrl + Shift + R
+```
+
+can confirm whether the new version is actually being served.
+
+---
+
+## Phase 3 Outcome
+
+At the conclusion of Phase 3:
+
+* Experience uses a card-based layout consistent with Education.
+* Accomplishments uses a card-based layout consistent with Education.
+* Existing Hugo Profile CSS styling was preserved wherever possible.
+* Experience card width and container structure were corrected.
+* Education link styling was aligned with the rest of the site.
+* Social-media/light-dark icon behavior was investigated and corrected.
+* A functional image gallery was added.
+* Gallery images support descriptions below each image.
+* Gallery viewer/zoom behavior was retained.
+* A functioning blog section was added.
+* Multilingual configuration was expanded to support English, Spanish, and French.
+* Custom language URL paths were investigated and configured.
+* Hugo `relURL` versus `absURL` behavior was investigated while debugging generated paths.
+* Responsive behavior was tested on different screen sizes.
+* Browser developer tools became a primary method for diagnosing CSS and layout issues.
+
+Phase 3 transformed the project from a primarily customized portfolio template into a more complete portfolio site with structured content, a blog, a gallery, multilingual support, and a more consistent visual system.
+
+---
+
+
 ---
 
 # Author
