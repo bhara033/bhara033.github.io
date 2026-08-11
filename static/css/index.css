@@ -135,14 +135,26 @@ header .navbar.animate {
 	overflow: hidden;
 }
 
-#hero a.btn.social-icon img {
-	width: 1.25em;
-	height: 1.25em;
-	display: block;
-	object-fit: contain;
+#hero a.btn.social-icon {
+    color: var(--primary-color) !important;
+    line-height: 0;
+    border-radius: 50%;
+    margin-top: 50px;
+    padding: 0.7rem;
+    border: 1px solid var(--primary-color);
+    transition: none;
+    overflow: hidden;
+    width: 1.25rem;
+    height: 1.25rem;
+    display: block;
+    object-fit: contain;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #hero a.btn.social-icon:hover {
+    background-color: var(--background-color) !important;
     opacity: 0.8;
 }
 
@@ -191,8 +203,6 @@ header .navbar.animate {
 #hero .hero-content > a:hover::after, #hero .hero-content > a:focus::after, #hero .hero-content > a:active::after {
     width: 100%;
 }
-
-
 
 /* about me */
 #about h3 {
