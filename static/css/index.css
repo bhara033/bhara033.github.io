@@ -277,6 +277,10 @@ header .navbar.animate {
     font-weight: bold;
 }
 
+#experience .companyName {
+    font-weight: bold !important;
+}
+
 #experience .card * {
     background-color: var(--secondary-color) !important;
 }
