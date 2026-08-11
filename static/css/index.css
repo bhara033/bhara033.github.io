@@ -380,6 +380,10 @@ header .navbar.animate {
     transition: transform 0.2s;
 }
 
+#education .card .card-title {
+    font-weight: bold !important;
+}
+
 #education .card .card-body {
     border-radius: 1.5rem;
     padding: 2rem;
