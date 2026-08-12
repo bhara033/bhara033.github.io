@@ -189,12 +189,12 @@ header .navbar.animate {
     display: none;
 }
 
-#hero .dark .icon-light {
-    display: none;
-}
-
 .dark #hero .icon-dark {
     display: inline;
+}
+
+.dark #hero .icon-light {
+    display: none;
 }
 
 /* about me */
