@@ -20,7 +20,7 @@
             {{ if .iconLight }}
             <picture>
                 <source srcset="{{ .iconDark }}" media="(prefers-color-scheme: dark)">
-                <source src="{{ .iconLight }}" media="(prefers-color-scheme: light)">
+                <img src="{{ .iconLight }}">
             </picture>
             {{ else }}
             <img src="{{ .icon }}">
