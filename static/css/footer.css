@@ -67,14 +67,18 @@ footer .card > .card-header .card-img-top {
     border-radius: 5px;
 }
 
+#footer .light-icon {
+    display: inline !important;
+}
+
 #footer .dark-icon {
-    display: none;
+    display: none !important;
 }
 
 .dark #footer .light-icon {
-    display: none;
+    display: none !important;
 }
 
 .dark #footer .dark-icon {
-    display: inline;
+    display: inline !important;
 }
