@@ -62,23 +62,23 @@ footer .card > .card-header .card-img-top {
     background-color: transparent !important;
 }
 
-#footer .google-scholar-icon {
+footer .google-scholar-icon {
     overflow: hidden;
     border-radius: 5px;
 }
 
-#footer .light-icon {
+footer .light-icon {
     display: inline !important;
 }
 
-#footer .dark-icon {
+footer .dark-icon {
     display: none !important;
 }
 
-.dark #footer .light-icon {
+.dark footer .light-icon {
     display: none !important;
 }
 
-.dark #footer .dark-icon {
+.dark footer .dark-icon {
     display: inline !important;
 }
