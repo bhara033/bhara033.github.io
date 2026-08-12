@@ -16,16 +16,24 @@
             {{ if not (hasPrefix .url "#") }} target="_blank" {{ end }}
             class="btn social-icon"
         >
-    
             {{ if .iconLight }}
-            <picture>
-                <source srcset="{{ .iconDark }}" media="(prefers-color-scheme: dark)">
-                <img src="{{ .iconLight }}">
-            </picture>
+            <img
+                src="{{ .iconLight }}"
+                class="icon-light"
+                alt=""
+            >
+            <img
+                src="{{ .iconDark }}"
+                class="icon-dark"
+                alt=""
+            >
             {{ else }}
-            <img src="{{ .icon }}">
+            <img
+                src="{{ .icon }}"
+                alt=""
+            >
             {{ end }}
-    
         </a>
     </span>
-{{ end }}
+    {{ end }}
+</span>
