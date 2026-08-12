@@ -135,27 +135,8 @@ header .navbar.animate {
 	overflow: hidden;
 }
 
-#hero a.btn.social-icon {
-    color: var(--primary-color) !important;
-    line-height: 0;
-    border-radius: 50%;
-    margin-top: 50px;
-    padding: 0.7rem;
-    border: 1px solid var(--primary-color);
-    transition: none;
-    overflow: hidden;
-    width: 20px;
-    height: 20px;
-    display: block;
-    object-fit: contain;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#hero a.btn.social-icon:hover {
-    background-color: var(--background-color) !important;
-    opacity: 0.8;
+#hero a.btn.social-icon img {
+	width: 1em;
 }
 
 #hero a.btn {
