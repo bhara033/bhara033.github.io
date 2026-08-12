@@ -193,7 +193,7 @@ header .navbar.animate {
     display: none;
 }
 
-#hero .dark .icon-dark {
+.dark #hero .icon-dark {
     display: inline;
 }
 
