@@ -94,9 +94,10 @@
     {{ end }}
 	
     {{ if .Site.Params.footer.socialNetworks.googleScholar }}
-    <a class="social-icon" href="{{ .Site.Params.footer.socialNetworks.googleScholar }}" target="_blank" aria-label="google scholar">
-        <img class="google-scholar-icon" src="/google-scholar-dark.svg" alt="Google Scholar" width="38" height="38">
-    </a>
+        <a class="social-icon" href="{{ .Site.Params.footer.socialNetworks.googleScholar }}" target="_blank" aria-label="google scholar">
+            <img class="google-scholar-icon light-icon" src="/google-scholar-light.svg" alt="Google Scholar" width="38" height="38">
+            <img class="google-scholar-icon dark-icon" src="/google-scholar-dark.svg" alt="" width="38" height="38">
+        </a>
     {{ end }}
 	
 </div>
