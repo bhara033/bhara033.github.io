@@ -197,6 +197,12 @@ header .navbar.animate {
     display: none;
 }
 
+#hero .icon-dark,
+#hero .icon-light {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
 /* about me */
 #about h3 {
     color: var(--text-secondary-color) !important;
