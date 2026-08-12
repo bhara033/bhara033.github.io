@@ -185,6 +185,18 @@ header .navbar.animate {
     width: 100%;
 }
 
+#hero .icon-dark {
+    display: none;
+}
+
+#hero .dark .icon-light {
+    display: none;
+}
+
+#hero .dark .icon-dark {
+    display: inline;
+}
+
 /* about me */
 #about h3 {
     color: var(--text-secondary-color) !important;
