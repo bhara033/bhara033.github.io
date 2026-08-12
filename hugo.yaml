@@ -182,9 +182,8 @@ params:
         - icon: fab fa-facebook
           url: https://www.facebook.com/bhara033/
       customIcons:
-        - iconLight: /google-scholar.svg
-          url: "https://scholar.google.com/citations?user=RyS9vJwAAAAJ&hl=en"
         - iconDark: /google-scholar-light.svg
+          iconLight: /google-scholar.svg
           url: "https://scholar.google.com/citations?user=RyS9vJwAAAAJ&hl=en"
 
   # About
