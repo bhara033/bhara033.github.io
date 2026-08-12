@@ -710,9 +710,9 @@ params:
     emailText: "Check out this site"
 
   datesFormat:
-    article: "Aug 5, 2026"
-    articleList: "Aug 5, 2026"
-    articleRecent: "Aug 5, 2026"
+    article: "Aug 11, 2026"
+    articleList: "Aug 11, 2026"
+    articleRecent: "Aug 11, 2026"
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
