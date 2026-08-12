@@ -63,15 +63,18 @@ footer .card > .card-header .card-img-top {
 }
 
 #footer .google-scholar-icon {
-    content: url("/google-scholar-light.svg");
-}
-
-.dark #footer .google-scholar-icon {
-    content: url("/google-scholar-dark.svg");
-}
-
-footer .social-icon svg,
-footer .social-icon img {
     overflow: hidden;
     border-radius: 5px;
+}
+
+#footer .dark-icon {
+    display: none;
+}
+
+.dark #footer .light-icon {
+    display: none;
+}
+
+.dark #footer .dark-icon {
+    display: inline;
 }
