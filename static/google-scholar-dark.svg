@@ -5,16 +5,7 @@
 
     <!-- Left black triangle -->
     <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
-        d="M400 627.226L25 321.875L400 25V627.226Z"
-        fill="black"/>
-
-    <!-- Right black triangle -->
-    <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
-        d="M400 627.226L775 321.875L400 25V627.226Z"
+        d="M400 627.226L25 321.875L400 25L775 321.875Z"
         fill="black"/>
 
     <!-- Black bottom circle -->
