@@ -144,8 +144,8 @@ header .navbar.animate {
     border: 1px solid var(--primary-color);
     transition: none;
     overflow: hidden;
-    width: 1.25rem;
-    height: 1.25rem;
+    width: 20px;
+    height: 20px;
     display: block;
     object-fit: contain;
     display: inline-flex;
