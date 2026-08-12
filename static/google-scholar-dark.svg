@@ -1,25 +1,25 @@
 <svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="800" height="800" fill="black"/>
+    <rect width="800" height="800" fill="white"/>
 
     <path
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M400 627.226L25 321.875L400 25V627.226Z"
-        fill="white"/>
+        fill="black"/>
 
     <path
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M400 627.226L775 321.875L400 25V627.226Z"
-        fill="white"/>
+        fill="black"/>
 
     <path
         d="M400 775C520.812 775 618.75 677.062 618.75 556.25C618.75 435.438 520.812 337.501 400 337.501C279.188 337.501 181.25 435.438 181.25 556.25C181.25 677.062 279.188 775 400 775Z"
-        fill="white"/>
+        fill="black"/>
 
     <path
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M202.3 462.5C237.409 388.594 312.737 337.5 400 337.5C487.262 337.5 562.591 388.594 597.7 462.5H202.3Z"
-        fill="white"/>
+        fill="black"/>
 </svg>
